@@ -1,0 +1,145 @@
+:root {
+    
+    /*COLORS */
+    --c-1: aqua;
+    --c-2: orange;
+    --c-3: white;
+    --c-light-grey: #ddd;
+    --c-dark-grey: #333;
+    
+    /* FONTS */
+    --ff-1: Helvetica-Neue, sans-serif;
+    --ff-2: 'Playfair Display', georgia, serif;
+    --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif;
+    
+    /* WEIGHTS */
+    --main-value: 20px;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: var(--ff-main);
+    color: #444;
+    font-size: var(--main-value);
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 2.9em;
+    font-family: var(--ff-1);
+}
+h2 {
+    font-size: 1.5em; 
+    font-family: var(--ff-2);
+    font-weight: 800; 
+}
+h1, h2, h3, p {
+    padding: 1.1em 0;
+}
+p {
+    letter-spacing: 0.01em;
+/*    font-weight: 200;*/
+    color: var(--c-dark-grey);
+}
+section {
+    width: 100vw;
+}
+
+/* =============================
+    layout styles
+===============================*/
+.row {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 100px;
+}
+@media screen and (min-width: 480px) {
+    .row {
+        max-width: 900px;
+        width: 90%;
+    }
+}
+/* =============================
+    parts specific styles
+===============================*/
+.header {
+    background-color: var(--c-1);
+    padding-bottom: 0.3em;
+}
+.header h1 {padding-bottom: 15px;}
+.header p {
+    padding: 0;
+}
+.content {
+    background-color: var(--c-3);
+}
+.two-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    padding: 1.1em 0;
+}
+@media screen and (min-width: 760px) {
+    .two-column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 1.1em 0;
+    }
+}
+.two-column p:first-of-type {
+    padding-top: 0;
+}
+.footer-bottom {
+    background-color: var(--c-2);
+}
+.footer-bottom .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+/* ===========================
+    CSS DOODLE
+==============================*/
+.doodle-wrap {
+    height: 240px;
+    position: relative;
+    z-index: 1;
+}
+css-doodle {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    max-height: 240px;
+    background-color: rgba(25, 255, 25, 1);
+}
+.achter {
+    height: 240px;
+    position: relative;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(
+        160deg, /* of met keywords
+                    to right
+                    to left
+                    to bottom left ... */
+        rgba(25, 255, 25, 1),
+        rgba(25, 255, 25, .9),
+        rgba(25, 255, 25, .1)
+    );
+}
+.achter h1 {
+    line-height: 120px;
+    text-align: center;
+}
+
+
+
+

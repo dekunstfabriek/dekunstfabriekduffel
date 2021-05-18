@@ -1,0 +1,36 @@
+:root {
+
+    /*COLORS */
+    --c-5: rgb(239,62,112);
+    --c-6: rgb(140,36,67);
+    --c-7: white;
+    --c-8: #39EAA8;
+}
+nav li > a {
+  color: var(--c-6);
+}
+.voorstelling h1 {
+  color: var(--c-5);
+  padding-bottom: 0;
+}
+/* ================================
+  HEADER Instrument
+=================================== */
+.header2 {
+  background-color: var(--c-5);
+}
+p {
+  padding: 5px 0;
+}
+main {
+  min-height: calc(100vh - 270px);
+}
+video {
+  border-radius: 8px;
+}
+footer {
+  background-color: var(--c-5);
+}
+.footer-instr {
+  background-color: var(--c-5);
+}
