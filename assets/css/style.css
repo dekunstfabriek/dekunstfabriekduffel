@@ -240,7 +240,7 @@ footer img.logo-dkf {
   height: 100vh;
 }
 #landing main {
-  background: url(../img/strijkers.jpg) no-repeat center center;
+  background: url(../img/strijkers-layers.jpg) no-repeat center center;
   background-size: 150%;
   background-color: #000;
   display: flex;
