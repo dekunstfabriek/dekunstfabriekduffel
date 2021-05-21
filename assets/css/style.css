@@ -1,1 +1,357 @@
+:root {
+  /* COLORS */
+  --c-1: #39B5A8;
+  --c-2: rgba(234,184,15, 1);
+  --c-3: rgba(199,51,101,1);
+  --c-4: rgb(239,62,112);
+  /* COLORS secondary */
+  --c-s1: #39EAA8;
+  --c-s2: rgba(243,214,117,1);
+  --c-s3: rgb(140,36,67);
+  --c-s4: #0A0C27;
 
+  /* FONTS */
+  --ff-1: Helvetica-Neue, sans-serif;
+  --ff-2: 'Playfair Display', georgia, serif;
+  --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif;
+
+  /* SIZES */
+  --main-value: 20px;
+
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: var(--ff-main);
+  color: #333;
+  font-size: var(--main-value);
+  line-height: 1.5em;
+  position: relative;
+}
+h1 {
+  font-size: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
+  font-family: var(--ff-1);
+  line-height: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
+}
+h2 {
+  font-size: 1.8em;
+  font-family: var(--ff-1);
+  font-weight: 800;
+}
+h3 {
+  font-size: 1.6em;
+  font-family: var(--ff-2);
+  font-weight: 800;
+}
+p {
+  font-size: .7em;
+  line-height: 1.5em;
+}
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+  p {
+    font-size: .9em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1em;
+  }
+}
+a {
+  color: var(--c-1);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--c-s1);
+}
+li {
+  list-style: none;
+  font-size: .9em;
+}
+button {
+  color: #fff;
+  padding: 16px 10px;
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+button a,
+button a:hover {
+  color: #fff;
+}
+section {
+  width: 100vw;
+}
+footer {
+  height: 120px;
+}
+/* =============================
+    layout styles
+===============================*/
+.row {
+    width: 87%;
+    margin: 0 auto;
+    /* min-height: 110px; */
+}
+@media screen and (min-width: 1024px) {
+    .row {
+/*        max-width: 900px;*/
+        width: 76vw;
+        margin: 0 7vw 0 17vw;
+    }
+}
+#landing main,
+#instrument main {
+  min-height: calc(88vh - 90px);
+}
+@media screen and (min-width: 1024px) {
+  #landing main,
+  #instrument main {
+    height: auto;
+      min-height: calc(88vh - 150px);
+  }
+}
+/* =============================
+    TOOLS
+===============================*/
+.upcase {
+  text-transform: uppercase;
+}
+/* ===============================
+    HAMBURGER
+==================================*/
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 8px 0 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+}
+/* ===============================
+    HEADER
+==================================*/
+#landing .header {
+  background-color: #000;
+  padding-bottom: 0.3em;
+  color: #fff;
+  max-height: 240px;
+}
+.header h1 {
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+@media screen and (max-width: 321px) {
+  .header2 h1 {
+    font-size: 28px;
+  }
+}
+.header h1 a,
+.header h1 a:visited,
+.header h1 a:active,
+.header h1 a:link {
+  color: #fff;
+}
+.header p {
+	padding-top: 4px;
+  padding-bottom: 10px;
+	color: #fff;
+	font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375)));
+  line-height: calc(11px + (20 - 11) * ((100vw - 375px) / (1100 - 375)));
+  text-align: center;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header__item img {
+  width: 8vw;
+  max-width: 43px;
+  padding-top: 12px;
+}
+@media screen and (min-width: 1024px) {
+  .header__item img {
+    width: 56px;
+    max-width: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__item img {
+    width: 72px;
+    max-width: 72px;
+  }
+  .header p {
+    text-align: left;
+  }
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 12vh;
+  max-height: 200px;
+}
+.footer-row {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer img {
+  width: 40vw;
+  max-width: 160px;
+  padding-bottom: 5px;
+  filter: brightness(.8);
+}
+footer img.logo-dkf {
+  max-width: 300px;
+}
+
+/* ===============================
+    LANDING SPECIFIC STYLES
+==================================*/
+#landing {
+  height: 100vh;
+}
+#landing main {
+  background: url(../img/strijkers.jpg) no-repeat center center;
+  background-size: 150%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#landing button {
+  margin-bottom: 4vh;
+}
+#landing button:last-of-type {
+  margin-bottom: 10vh;
+}
+.btn-roze {
+  background-color: var(--c-4);
+}
+.btn-blauw {
+  background-color: var(--c-1);
+}
+@media screen and (min-width: 1024px) {
+  #landing main {
+    background-size: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #landing button {
+    margin: 0 16px 10vh;
+  }
+}
+/* TODO: de precieze hoogte nog uitrekenen */
+/* ===============================
+    INSTRUMENT SPECIFIC STYLES
+==================================*/
+#instrument .header {
+  background-color: var(--c-4);
+  color: #fff;
+}
+.footer-instrument {
+  background-color: var(--c-4);
+}
+#instrument main {
+  background: #fff;
+}
+.footer-instrument img {
+  filter: brightness(1);
+}
+.voorstelling h2,
+.voorstelling h3 {
+  padding: 16px 0;
+}
+.voorstelling h2 {
+  padding-top: 23px;
+  font-size: 1.7em;
+  color: var(--c-4);
+}
+.voorstelling h3 {font-size: 1.2em;}
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+  .voorstelling h2 {font-size: 2.3em;}
+}
+@media screen and (min-width: 1024px) {
+  .voorstelling h2 {font-size: 2.9em;}
+  .voorstelling h3 {font-size: 1.6em;}
+}
+.voorstelling p {
+  padding: 4px 0 10px;
+}
+video {
+  max-width: 100%;
+  max-height: 40vh;
+  border-radius: 8px;
+}
+/* nog niet in gebruik
+========================= */
+.laatste-nieuws {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--c-2);
+  border-radius: 8px;
+  margin-top: 22px;
+  flex-wrap:wrap;
+}
+.laatste-nieuws__item {
+  width: 96%;
+  padding: 0 2%;
+}
+@media screen and (min-width: 1024px) {
+  .laatste-nieuws {
+    flex-wrap: nowrap;
+  }
+  .laatste-nieuws__item {
+    width: 46%;
+    padding: 0 2%;
+  }
+}
+.laatste-nieuws h2,
+.laatste-nieuws a {
+  color: var(--c-2);
+}
+.laatste-nieuws h2 {
+  padding: .7em 0;
+}
+.laatste-nieuws a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.muziek-wrap h1 {
+  color: rgba(234,184,15, 1);
+  font-size: 4.5em;
+}
+.muziek-wrap p {
+  padding-bottom: 2em;
+}
