@@ -211,6 +211,9 @@ footer {
     text-align: left;
   }
 }
+/* ===============================
+    FOOTER
+==================================*/
 footer {
   background-color: #000;
   color: #fff;
@@ -230,7 +233,10 @@ footer img {
   filter: brightness(.8);
 }
 footer img.logo-dkf {
-  max-width: 300px;
+  max-width: 250px;
+}
+footer img.logo-duffel {
+  max-width: 120px;
 }
 
 /* ===============================
@@ -240,7 +246,7 @@ footer img.logo-dkf {
   height: 100vh;
 }
 #landing main {
-  background: url(../img/strijkers-layers.jpg) no-repeat center center;
+  background: url(../img/strijkers.jpg) no-repeat center center;
   background-size: 150%;
   background-color: #000;
   display: flex;
@@ -312,6 +318,22 @@ video {
   max-width: 100%;
   max-height: 40vh;
   border-radius: 8px;
+}
+/* ===============================
+    HOME SPECIFIC STYLES
+==================================*/
+#home .header {
+  background-color: var(--c-2);
+}
+#home h2 {
+  color: crimson;
+  line-height: 1em;
+}
+.footer-home {
+  background-color: var(--c-2);
+}
+#home footer img {
+  filter: brightness(1);
 }
 /* nog niet in gebruik
 ========================= */
