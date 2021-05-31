@@ -1,379 +1,293 @@
-:root {
-  /* COLORS */
-  --c-1: #39B5A8;
-  --c-2: rgba(234,184,15, 1);
-  --c-3: rgba(199,51,101,1);
-  --c-4: rgb(239,62,112);
-  /* COLORS secondary */
-  --c-s1: #39EAA8;
-  --c-s2: rgba(243,214,117,1);
-  --c-s3: rgb(140,36,67);
-  --c-s4: #0A0C27;
+:root { /* COLORS */ --c-1: #39B5A8; --c-2: rgba(234,184,15, 1); --c-3: rgba(199,51,101,1); --c-4: rgb(239,62,112); /* COLORS secondary */ --c-s1: #39EAA8; --c-s2: rgba(243,214,117,1); --c-s3: rgb(140,36,67); --c-s4: #0A0C27; /* FONTS */ --ff-1: Helvetica-Neue, sans-serif; --ff-2: 'Playfair Display', georgia, serif; --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif; /* SIZES */ --main-value: 20px; }
 
-  /* FONTS */
-  --ff-1: Helvetica-Neue, sans-serif;
-  --ff-2: 'Playfair Display', georgia, serif;
-  --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif;
+* { margin: 0; box-sizing: border-box; }
 
-  /* SIZES */
-  --main-value: 20px;
+body { background-color: #fff; font-family: var(--ff-main); color: #333; font-size: var(--main-value); line-height: 1.5em; position: relative; }
 
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  background-color: #fff;
-  font-family: var(--ff-main);
-  color: #333;
-  font-size: var(--main-value);
-  line-height: 1.5em;
-  position: relative;
-}
-h1 {
-  font-size: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
-  font-family: var(--ff-1);
-  line-height: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
-}
-h2 {
-  font-size: 1.8em;
-  font-family: var(--ff-1);
-  font-weight: 800;
-}
-h3 {
-  font-size: 1.6em;
-  font-family: var(--ff-2);
-  font-weight: 800;
-}
-p {
-  font-size: .7em;
-  line-height: 1.5em;
-}
-@media screen and (min-width: 321px) and (max-width: 1023px) {
-  p {
-    font-size: .9em;
-  }
-}
-@media screen and (min-width: 1024px) {
-  p {
-    font-size: 1em;
-  }
-}
-a {
-  color: var(--c-1);
-  text-decoration: none;
-}
-a:hover {
-  color: var(--c-s1);
-}
-li {
-  list-style: none;
-  font-size: .9em;
-}
-button {
-  color: #fff;
-  padding: 16px 10px;
-  width: 300px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.2em;
-}
-button a,
-button a:hover {
-  color: #fff;
-}
-section {
-  width: 100vw;
-}
-footer {
-  height: 120px;
-}
-/* =============================
-    layout styles
-===============================*/
-.row {
-    width: 87%;
-    margin: 0 auto;
-    /* min-height: 110px; */
-}
-@media screen and (min-width: 1024px) {
-    .row {
-/*        max-width: 900px;*/
-        width: 76vw;
-        margin: 0 7vw 0 17vw;
-    }
-}
-#landing main,
-#instrument main {
-  min-height: calc(88vh - 90px);
-}
-@media screen and (min-width: 1024px) {
-  #landing main,
-  #instrument main {
-    height: auto;
-      min-height: calc(88vh - 150px);
-  }
-}
-/* =============================
-    TOOLS
-===============================*/
-.upcase {
-  text-transform: uppercase;
-}
-/* ===============================
-    HAMBURGER
-==================================*/
-.hamburger {
-  display: inline-block;
-  cursor: pointer;
-}
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 3px;
-  background-color: #fff;
-  margin: 8px 0 0;
-  transition: 0.4s;
-}
-/* Rotate first bar */
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
-}
-/* Rotate last bar */
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
-}
-@media screen and (min-width: 1024px) {
-  .hamburger {
-    display: none;
-  }
-}
-/* ===============================
-    HEADER
-==================================*/
-#landing .header {
-  background-color: #000;
-  padding-bottom: 0.3em;
-  color: #fff;
-  max-height: 240px;
-}
-.header h1 {
-  padding-bottom: 0;
-  padding-top: 10px;
-}
-@media screen and (max-width: 321px) {
-  .header2 h1 {
-    font-size: 28px;
-  }
-}
-.header h1 a,
-.header h1 a:visited,
-.header h1 a:active,
-.header h1 a:link {
-  color: #fff;
-}
-.header p {
-	padding-top: 4px;
-  padding-bottom: 10px;
-	color: #fff;
-	font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375)));
-  line-height: calc(11px + (20 - 11) * ((100vw - 375px) / (1100 - 375)));
-  text-align: center;
-}
-.header__row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.header__item img {
-  width: 8vw;
-  max-width: 43px;
-  padding-top: 12px;
-}
-@media screen and (min-width: 1024px) {
-  .header__item img {
-    width: 56px;
-    max-width: 56px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .header__item img {
-    width: 72px;
-    max-width: 72px;
-  }
-  .header p {
-    text-align: left;
-  }
-}
-/* ===============================
-    FOOTER
-==================================*/
-footer {
-  background-color: #000;
-  color: #fff;
-  height: 12vh;
-  max-height: 200px;
-}
-.footer-row {
-  height: inherit;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-footer img {
-  width: 40vw;
-  max-width: 160px;
-  padding-bottom: 5px;
-  filter: brightness(.8);
-}
-footer img.logo-dkf {
-  max-width: 250px;
-}
-footer img.logo-duffel {
-  max-width: 120px;
-}
+h1 { font-size: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375))); font-family: var(--ff-1); line-height: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375))); }
 
-/* ===============================
-    LANDING SPECIFIC STYLES
-==================================*/
-#landing {
-  height: 100vh;
-}
-#landing main {
-  background: url(../img/strijkers-layers.jpg) no-repeat center center;
-  background-size: 150%;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-#landing button {
-  margin-bottom: 4vh;
-}
-#landing button:last-of-type {
-  margin-bottom: 10vh;
-}
-.btn-roze {
-  background-color: var(--c-4);
-}
-.btn-blauw {
-  background-color: var(--c-1);
-}
-@media screen and (min-width: 1024px) {
-  #landing main {
-    background-size: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  #landing button {
-    margin: 0 16px 10vh;
-  }
-}
-/* TODO: de precieze hoogte nog uitrekenen */
-/* ===============================
-    INSTRUMENT SPECIFIC STYLES
-==================================*/
-#instrument .header {
-  background-color: var(--c-4);
-  color: #fff;
-}
-.footer-instrument {
-  background-color: var(--c-4);
-}
-#instrument main {
-  background: #fff;
-}
-.footer-instrument img {
-  filter: brightness(1);
-}
-.voorstelling h2,
-.voorstelling h3 {
-  padding: 16px 0;
-}
-.voorstelling h2 {
-  padding-top: 23px;
-  font-size: 1.7em;
-  color: var(--c-4);
-}
-.voorstelling h3 {font-size: 1.2em;}
-@media screen and (min-width: 321px) and (max-width: 1023px) {
-  .voorstelling h2 {font-size: 2.3em;}
-}
-@media screen and (min-width: 1024px) {
-  .voorstelling h2 {font-size: 2.9em;}
-  .voorstelling h3 {font-size: 1.6em;}
-}
-.voorstelling p {
-  padding: 4px 0 10px;
-}
-video {
-  max-width: 100%;
-  max-height: 40vh;
-  border-radius: 8px;
-}
-/* ===============================
-    HOME SPECIFIC STYLES
-==================================*/
-#home .header {
-  background-color: var(--c-2);
-}
-#home h2 {
-  color: crimson;
-  line-height: 1em;
-}
-.footer-home {
-  background-color: var(--c-2);
-}
-#home footer img {
-  filter: brightness(1);
-}
+h2 { font-size: 1.8em; font-family: var(--ff-1); font-weight: 800; }
+
+h3 { font-size: 1.6em; font-family: var(--ff-2); font-weight: 800; }
+
+p { font-size: .7em; line-height: 1.5em; }
+
+@media screen and (min-width: 321px) and (max-width: 1023px) { p { font-size: .9em; } }
+
+@media screen and (min-width: 1024px) { p { font-size: 1em; } }
+
+a { color: var(--c-1); text-decoration: none; font-weight: bold; }
+
+a:hover { color: var(--c-s1); }
+
+li { list-style: none; font-size: .9em; }
+
+button { color: #fff; padding: 16px 10px; width: 300px; border: none; border-radius: 8px; font-size: 1.2em; }
+
+button a, button a:hover { color: #fff; }
+
+section { width: 100vw; }
+
+footer { min-height: 120px; }
+
+/* ============================= layout styles ===============================*/
+.row { width: 87%; margin: 0 auto; /* min-height: 110px; */ }
+
+@media screen and (min-width: 1024px) { .row { /*        max-width: 900px;*/ width: 76vw; margin: 0 7vw 0 17vw; } }
+
+#landing main, #instrument main { min-height: calc(88vh - 90px); }
+
+@media screen and (min-width: 1024px) { #landing main, #instrument main { height: auto; min-height: calc(88vh - 150px); } }
+
+/* ============================= TOOLS ===============================*/
+.upcase { text-transform: uppercase; }
+
+.spacer { height: 1.5em; }
+
+.blue { color: var(--c-1); }
+
 /* nog niet in gebruik
 ========================= */
-.laatste-nieuws {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid var(--c-2);
-  border-radius: 8px;
-  margin-top: 22px;
-  flex-wrap:wrap;
-}
-.laatste-nieuws__item {
-  width: 96%;
-  padding: 0 2%;
-}
-@media screen and (min-width: 1024px) {
-  .laatste-nieuws {
-    flex-wrap: nowrap;
-  }
-  .laatste-nieuws__item {
-    width: 46%;
-    padding: 0 2%;
-  }
-}
-.laatste-nieuws h2,
-.laatste-nieuws a {
-  color: var(--c-2);
-}
-.laatste-nieuws h2 {
-  padding: .7em 0;
-}
-.laatste-nieuws a {
-  text-decoration: none;
-  font-weight: bolder;
-}
-.muziek-wrap h1 {
-  color: rgba(234,184,15, 1);
-  font-size: 4.5em;
-}
-.muziek-wrap p {
-  padding-bottom: 2em;
-}
+.laatste-nieuws { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--c-1); border-radius: 8px; margin-top: 22px; margin-bottom: 22px; flex-wrap: wrap; }
+
+.laatste-nieuws__item { width: 96%; padding: 0 2% 18px; }
+
+@media screen and (min-width: 1024px) { .laatste-nieuws { flex-wrap: nowrap; } .laatste-nieuws__item { width: 46%; padding: 0 2%; } }
+
+.laatste-nieuws h2, .laatste-nieuws a { color: var(--c-1); }
+
+.laatste-nieuws h2 { padding: .7em 0; }
+
+.laatste-nieuws a { text-decoration: none; font-weight: bolder; }
+
+.fourofour { height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+
+.fourofour-wrap { margin: 0 auto; }
+
+/* ============================= LINKS ===============================*/
+.muziek a, .bak a, .talen a { color: #fff; font-weight: bold; text-decoration: underline; }
+
+.muziek a:hover, .bak a:hover, .talen a:hover { color: var(--c-s1); text-decoration: none; }
+
+/* ======================================================================== OPGELET: TIJDELIJKE AANPASSINGEN --> STEEDS WEER VERANDEREN INDIEN NODIG ===========================================================================*/
+.footer-nav { display: none; }
+
+/* ============================= NAVIGATION ===============================*/
+.main-nav { position: fixed; top: .8em; left: -1.2em; }
+
+.main-nav li { line-height: 1.24em; }
+
+.main-nav a { background-color: rgba(255, 255, 255, 0.9); border-radius: 0 12px 0 0; padding: 0 5px; font-size: 16px; }
+
+@media screen and (max-width: 1023px) { .main-nav { display: none; } }
+
+/* =============================== HAMBURGER ==================================*/
+.hamburger { display: inline-block; cursor: pointer; }
+
+.bar1, .bar2, .bar3 { width: 30px; height: 3px; background-color: #fff; margin: 8px 0 0; transition: 0.4s; }
+
+/* Rotate first bar */
+.change .bar1 { -webkit-transform: rotate(-45deg) translate(-9px, 6px); transform: rotate(-45deg) translate(-9px, 6px); }
+
+/* Fade out the second bar */
+.change .bar2 { opacity: 0; }
+
+/* Rotate last bar */
+.change .bar3 { -webkit-transform: rotate(45deg) translate(-8px, -8px); transform: rotate(45deg) translate(-8px, -8px); }
+
+@media screen and (min-width: 1024px) { .hamburger { display: none; } }
+
+/* =============================== HEADER ==================================*/
+#landing .header { background-color: #000; padding-bottom: 0.3em; color: #fff; max-height: 240px; }
+
+.header h1 { padding-bottom: 0; padding-top: 10px; }
+
+@media screen and (max-width: 321px) { .header2 h1 { font-size: 28px; } }
+
+.header h1 a, .header h1 a:visited, .header h1 a:active, .header h1 a:link { color: #fff; }
+
+.header p { padding-top: 4px; padding-bottom: 10px; color: #fff; font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375))); line-height: calc(11px + (20 - 11) * ((100vw - 375px) / (1100 - 375))); text-align: center; }
+
+.header__row { display: flex; justify-content: space-between; align-items: baseline; }
+
+.header__item img { width: 8vw; max-width: 43px; padding-top: 12px; }
+
+@media screen and (min-width: 1024px) { .header__item img { width: 56px; max-width: 56px; } }
+
+@media screen and (min-width: 1024px) { .header__item img { width: 72px; max-width: 72px; padding-right: 7px; } .header p { text-align: left; } }
+
+/* =============================== FOOTER ==================================*/
+footer { background-color: var(--c-s4); color: #fff; padding: 15px 0; }
+
+.footer-wrap { display: flex; justify-content: flex-end; }
+
+.footer-nav { min-width: 30%; }
+
+.footer-contact { margin-top: 5px; display: flex; justify-content: flex-end; }
+
+.footer-contact p { font-size: 16px; border-top: 1px solid var(--c-1); border-bottom: 1px solid var(--c-1); }
+
+.footer-row { height: inherit; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; }
+
+footer img { width: 40vw; max-width: 160px; padding-bottom: 5px; filter: brightness(1); }
+
+footer img.logo-dkf { max-width: 150px; }
+
+footer img.logo-duffel { max-width: 80px; }
+
+/* =============================== LANDING SPECIFIC STYLES ==================================*/
+#landing { height: 100vh; }
+
+#landing main { background: url(../img/strijkers.jpg) no-repeat center center; background-size: 150%; background-color: #000; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+
+#landing button { margin-bottom: 4vh; }
+
+#landing button:last-of-type { margin-bottom: 10vh; }
+
+.btn-roze { background-color: var(--c-4); }
+
+.btn-blauw { background-color: var(--c-1); }
+
+@media screen and (min-width: 1024px) { #landing main { background-size: 100%; flex-direction: row; justify-content: center; align-items: flex-end; } #landing button { margin: 0 16px 10vh; } }
+
+/* TODO: de precieze hoogte nog uitrekenen */
+/* =============================== INSTRUMENT SPECIFIC STYLES ==================================*/
+#kunstroute .header, #instrument .header { background-color: var(--c-4); color: #fff; }
+
+.footer-kunstroute, .footer-instrument, .footer-instrumenten { /*  background-color: var(--c-4);*/ }
+
+#kunstroute main, #instrument main { background: #fff; }
+
+.footer-kunstroute img, .footer-instrument img { filter: brightness(1); }
+
+.voorstelling h2, .voorstelling h3 { padding: 16px 0; }
+
+.voorstelling h2 { padding-top: 23px; font-size: 1.7em; color: var(--c-4); }
+
+.voorstelling h3 { font-size: 1.2em; }
+
+@media screen and (min-width: 321px) and (max-width: 1023px) { .voorstelling h2 { font-size: 2.3em; } }
+
+@media screen and (min-width: 1024px) { .voorstelling h2 { font-size: 2.9em; } .voorstelling h3 { font-size: 1.6em; } }
+
+.voorstelling p { padding: 4px 0 10px; }
+
+video { max-width: 100%; max-height: 40vh; border-radius: 8px; }
+
+/* =============================== HOME SPECIFIC STYLES ==================================*/
+#home .header { background-color: var(--c-s4); }
+
+#home .header h2 { color: crimson; line-height: 1em; }
+
+#home .header footer img { filter: brightness(1); }
+
+.footer-home { /*  background-color: var(--c-2);*/ }
+
+/* =============================== INSTRUMENT SPECIFIC STYLES ==================================*/
+#instrumenten .header { background-color: var(--c-4); }
+
+#instrumenten h2 { line-height: 1em; padding: 16px 0; }
+
+#instrumenten h3 { padding: 16px 0; }
+
+#instrumenten footer img { filter: brightness(1); }
+
+.instr-wrap { margin-bottom: 38px; }
+
+.instr-grid { display: block; }
+
+@media screen and (min-width: 1024px) { .instr-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em 2em; } }
+
+/* =============================== HOME SPECIFIC STYLES ==================================*/
+.muziek { background-color: #f3d573; scroll-snap-align: start; }
+
+.muziek__wrap { background-color: #e9b809; min-height: 150px; display: flex; flex-wrap: wrap; align-items: center; }
+
+.bak__wrap { background-color: var(--c-4); min-height: 150px; display: flex; flex-wrap: wrap; align-items: center; }
+
+.talen__wrap { background-color: var(--c-1); min-height: 150px; display: flex; flex-wrap: wrap; align-items: center; }
+
+.muziek__item { position: relative; color: #fff; padding: 2.5vw; }
+
+.muziek__item img { width: 100%; object-fit: contain; filter: saturate(50%); filter: sepia(0.1); opacity: .6; }
+
+.muziek__item figcaption { position: absolute; top: 1.5vw; left: 1.3vw; font-family: var(--ff-1); font-size: 2.3em; font-weight: bold; letter-spacing: .05em; }
+
+@media screen and (min-width: 1024px) { .muziek__wrap, .bak__wrap { flex-wrap: nowrap; justify-content: space-around; } /* DIT IS MAAR WAT GEPROBEER, DIT MOET WEG ===========================================*/ .muziek__wrap--lessen { align-items: flex-start; justify-content: space-around; min-height: 50px; color: #fff; } /* TOT HIER !!!!! ===========================================*/ .muziek__item { padding: 2.5vw 2vw; } .muziek__item--1:first-of-type { order: 1; flex: 2; } .muziek__item--1:last-of-type { order: 2; flex: 3; } .muziek__item--2:first-of-type { order: 2; flex: 2; } .muziek__item--2:last-of-type { order: 1; flex: 3; } .muziek__item--2 figcaption { right: 1.3vw; text-align: right; } }
+
+.bak { background-color: rgba(199, 51, 101, 0.6); }
+
+.talen { background-color: rgba(57, 181, 168, 0.6); }
+
+.slogan { padding: 100px 20px; text-align: center; color: var(--c-3); }
+
+q { /* border-left: 4px solid var(--c-1); */ /* padding-left: 12px; */ font-family: var(--ff-2); letter-spacing: .1em; font-size: 1.4em; }
+
+q:before { content: ""; }
+
+q:after { content: ""; }
+
+.muziek-wrap h1 { color: #eab80f; font-size: 4.5em; }
+
+.muziek-wrap p { padding-bottom: 2em; }
+
+/* =============================== POSTS SPECIFIC STYLES ==================================*/
+#nieuws .header { background-color: var(--c-s4); }
+
+.nieuws { padding: 2em 0; }
+
+.nieuws h3, .nieuws p { margin: 16px 0; }
+
+.nieuws li { border: 1px solid var(--c-1); border-radius: 5px; padding: 0 8px; }
+
+.nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; }
+
+/* =============================== POSTS SPECIFIC STYLES ==================================*/
+#inschrijvingen .header { background-color: #000; }
+
+.inschrijvingen { margin: 1em 0; }
+
+.inschrijvingen article { padding: 10px 0; column-count: 1; }
+
+@media screen and (min-width: 1024px) { .inschrijvingen article { column-count: 2; column-gap: 12px; } }
+
+#inschrijvingen p { font-size: .9em; padding-bottom: .28em; }
+
+#inschrijvingen .header p { font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375))); }
+
+#inschrijvingen h2 { color: var(--c-1); margin-bottom: 15px; }
+
+#inschrijvingen h3 { margin: 15px 0; }
+
+.inschrijvingen-hoe { margin-bottom: 40px; }
+
+.disc li { list-style: disc; font-size: .9em; }
+
+/* =============================== INSCHRIJVINGEN 2 styles ==================================*/
+.grid { display: grid; grid-template-columns: 1fr; gap: 0; margin: 35px 0; }
+
+.grid article { padding: 14px; border-left: 1px solid #cf6316; }
+
+.grid aside { padding: 10px; color: #fff; }
+
+@media screen and (min-width: 1024px) { .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5em; margin: 97px 0; } .klassik article, .samen article { grid-column: 1/4; grid-row: 1/2; } .klassik aside, .samen aside { grid-column: 4/6; grid-row: 1/2; } .indiv article { grid-column: 3/6; grid-row: 1/2; } .indiv aside { grid-column: 1/3; grid-row: 1/2; } .grid article { border: none; } }
+
+.klassik aside { background-color: var(--c-4); }
+
+.indiv aside { /* background-color: #1569C7; */ background-color: var(--c-2); }
+
+.samen aside { /* background-color: #FF8F3F; */ background-color: var(--c-1); }
+
+.procedure { display: flex; flex-direction: column; justify-content: space-around; text-align: center; }
+
+.procedure__item { padding-bottom: 5px; border-bottom: 1px solid #fff; }
+
+.procedure__item:last-of-type { border: none; }
+
+aside a { color: #fff; display: block; }
+
+.btn { padding: 15px; min-width: 80%; /* background-color: var(--c-1); */ background-color: var(--c-s2); border-radius: 10px; }
+
+.btn:hover { background-color: #004146; }
+
+/*# sourceMappingURL=style.css.map */
