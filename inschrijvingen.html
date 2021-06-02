@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/css-doodle@0.15.3/css-doodle.min.js"></script>
+    <script src="/assets/js/headroom.js"></script>
 </head>
 <body id="inschrijvingen">
 
 
 
-  <section class="header">
+  <section id="header" class="header header--fixed">
      <div class="row header__row">
 <!--
        <div class="header__item hamburger" onclick="myFunction(this)">
@@ -135,7 +136,7 @@
               <a href="https://webshopduffel.recreatex.be" target="blank" class="btn btn-blauw">Webshop</a>
             </div>
             <div class="procedure__item">
-              <p><u>Hou volgende gegevens bij de hand:</u></p>
+              <p>Hou volgende <u>gegevens</u> bij de hand:</p>
               <p>Rijksregisternummer</p>
               <p>Telefoonummer</p>
               <p>email-adres</p>
@@ -160,15 +161,15 @@
               <p><a href="mailto:dekunstfabriek@duffel.be" target="blank">dekunstfabriek@duffel.be</a></p>
             </div>
             <div class="procedure__item">
-              <p>&#9743; <u>Is er nog een plaats vrij?</u></p>
+              <p><span class="icon">&#9743; </span> Is er nog een <u>plaats vrij?</u></p>
               <p>Ja? &#8680; Uur en dag afspreken</p>
               <p>Gegevens doorgeven</p>
             </div>
             <div class="procedure__item">
-              <p><u>"Vrije Tijd" zet je reservering in de webshop</u></p>
+              <p>"Vrije Tijd" zet je reservering in de <u>webshop</u></p>
             </div>
             <div class="procedure__item">
-              <p>&#9993; <u>Je krijgt een mail</u></p>
+              <p><span class="icon">&#9993; </span> Je krijgt een <u>mail</u></p>
               <p>met een uitnodiging om te betalen via</p>
               <a href="https://webshopduffel.recreatex.be" target="blank" class="btn btn-blauw">Webshop</a>
             </div>
@@ -201,13 +202,13 @@
               <p>Daarna laat de leraar aan de dienst "Vrije Tijd" weten of je al dan niet kan inschrijven.</p>
             </div>
             <div class="procedure__item">
-              <p><u>"Vrije Tijd" neemt dan terug contact met je op om je verder in te schrijven.</u></p>
+              <p><u>"Vrije Tijd"</u> neemt dan terug contact met je op om je verder in te schrijven.</p>
             </div>
             <div class="procedure__item">
               <p><u>"Vrije Tijd" zet je reservering in de webshop</u></p>
             </div>
             <div class="procedure__item">
-              <p>&#9993; <u>Je krijgt een mail</u></p>
+              <p><span class="icon">&#9993; </span> Je krijgt een <u>mail</u></p>
               <p>met een uitnodiging om te betalen via</p>
               <a href="https://webshopduffel.recreatex.be" target="blank" class="btn btn-blauw">Webshop</a>
             </div>
@@ -251,7 +252,7 @@
                 <div class="footer-part">
                   <img src="assets/img/DeKunstfabriek-logo-klein.png" alt="" class="logo-dkf">
                 </div>
-            </div>
+            </div><!-- footer-row -->
           </div><!-- footer-wrap -->
             <div class="row">
                 <div class="footer-contact">
@@ -260,6 +261,34 @@
             </div>
     </footer>
     <script src="/assets/js/hamburger.js"></script>
+    <script>
+        
+        if (document.documentElement.clientWidth < 1024) {
+				// ZET HIER HET SCRIPT TUSSEN ALS JE WILT DAT HET PAS WERKT BIJ EEN SCREENWIDTH VAN MINDER DAN 1024px
+            var myElement = document.getElementById("header");
+			// construct an instance of Headroom, passing the element
+			var headroom  = new Headroom(myElement, {
+				tolerance: {
+					down: 1,
+					up: 4
+				},
+				offset: 
+					200
+			});
+			// met volgende functie werkt headroom niet bij de landing page
+			var el = document.getElementById('landing');
+			if (el == null) {
+				headroom.init();
+			}
+			else {
+				headroom.destroy();
+			}
+			}
+            // let op: dit heb ik moeten veranderen om het goed te laten werken:
+            // Z-indexen veranderd bij headroom-classen en hamburger-classes en navigation
+            // op de "body" heb ik top: 140px moeten plaatsen
+            // @media toegevoegd voor .header--fixed en body (in navigation.scss
+    </script>
 </body>
 </html>
 
