@@ -2,6 +2,8 @@
 
 * { margin: 0; box-sizing: border-box; }
 
+html { scroll-behavior: smooth; }
+
 body { background-color: #fff; font-family: var(--ff-main); color: #333; font-size: var(--main-value); line-height: 1.5em; position: relative; top: 140px; }
 
 h1 { font-size: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375))); font-family: var(--ff-1); line-height: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375))); }
@@ -25,6 +27,16 @@ li { list-style: none; font-size: .9em; }
 button { color: #fff; padding: 16px 10px; width: 300px; border: none; border-radius: 8px; font-size: 1.2em; }
 
 button a, button a:hover { color: #fff; }
+
+table { width: 100%; margin-bottom: 60px; }
+
+th, td { border-bottom: 2px solid var(--c-s2); }
+
+th { border-top: 2px solid var(--c-s2); }
+
+td { text-align: center; }
+
+td:first-child { text-align: left; }
 
 section { width: 100vw; }
 
@@ -334,5 +346,19 @@ aside a { color: #fff; display: block; }
 .btn { padding: 15px; min-width: 80%; /* background-color: var(--c-1); */ background-color: var(--c-s2); border-radius: 10px; }
 
 .btn:hover { background-color: #004146; }
+
+.lesuren__grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+
+.lesuren__item th { font-weight: bolder; padding: 5px 0; border-top: 2px solid var(--c-3); color: #000; }
+
+.lesuren__item th, .lesuren__item td { border-bottom: 2px solid var(--c-3); }
+
+.lesuren__andere th, .lesuren__andere td { border-bottom: 2px solid var(--c-1); }
+
+.lesuren__andere th { border-top: 2px solid var(--c-1); }
+
+th.no-border-top { border-top: none; }
+
+@media screen and (min-width: 1024px) { .lesuren__grid { grid-template-columns: 1fr 1fr; gap: 2em; } }
 
 /*# sourceMappingURL=style.css.map */
