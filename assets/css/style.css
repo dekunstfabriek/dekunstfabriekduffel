@@ -76,6 +76,7 @@ footer { min-height: 120px; }
 
 .laatste-nieuws a { text-decoration: none; font-weight: bolder; }
 
+/* ============================= 404-PAGE ===============================*/
 .fourofour { height: 100vh; display: flex; flex-direction: column; justify-content: center; }
 
 .fourofour-wrap { margin: 0 auto; }
@@ -211,6 +212,10 @@ button.btn-blauw:hover { background-color: var(--c-s1); }
 
 /* TODO: de precieze hoogte nog uitrekenen */
 /* =============================== INSTRUMENT SPECIFIC STYLES ==================================*/
+.kunstroute__img { max-width: 800px; max-height: 565px; }
+
+.kunstroute__img img { width: 100%; }
+
 #kunstroute .header, #instrument .header { background-color: var(--c-4); color: #fff; }
 
 .footer-kunstroute, .footer-instrument, .footer-instrumenten { /*  background-color: var(--c-4);*/ }
