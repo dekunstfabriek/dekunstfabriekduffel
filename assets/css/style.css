@@ -62,6 +62,8 @@ footer { min-height: 120px; }
 
 .blue { color: var(--c-1); }
 
+.nav-focus-color { color: #ef3e70; }
+
 .icon { font-size: 1.9em; position: relative; bottom: -6px; }
 
 /* SKIPLINK --> */
@@ -262,6 +264,8 @@ video { max-width: 100%; max-height: 40vh; border-radius: 8px; }
 #home .header footer img { filter: brightness(1); }
 
 .footer-home { /*  background-color: var(--c-2);*/ }
+
+.aanwezig { color: #000; font-weight: bolder; }
 
 /* =============================== INSTRUMENT SPECIFIC STYLES ==================================*/
 #instrumenten .header { background-color: var(--c-4); }
