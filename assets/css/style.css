@@ -12,6 +12,8 @@ h2 { font-size: 1.8em; font-family: var(--ff-1); font-weight: 800; }
 
 h3 { font-size: 1.6em; font-family: var(--ff-2); font-weight: 800; }
 
+h4 { font-size: 1.4em; font-family: var(--ff-2); font-weight: 800; }
+
 p { font-size: .7em; line-height: 1.5em; }
 
 @media screen and (min-width: 321px) and (max-width: 1023px) { p { font-size: .9em; } }
@@ -70,13 +72,21 @@ footer { min-height: 120px; }
 /* <-- SKIPLINK */
 /* nog niet in gebruik
 ========================= */
-.laatste-nieuws { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--c-1); border-radius: 8px; margin-top: 22px; margin-bottom: 22px; flex-wrap: wrap; }
+.laatste-nieuws { display: flex; justify-content: space-between; align-items: stretch; margin-top: 22px; margin-bottom: 22px; border: 1px solid var(--c-1); border-radius: 8px; flex-wrap: wrap; }
 
-.laatste-nieuws__item { width: 96%; padding: 0 2% 18px; }
+.laatste-nieuws__item { width: 100%; padding: 0 2% 18px; background-color: rgba(97, 175, 171, 0.13); font-size: .8em; }
 
-@media screen and (min-width: 1024px) { .laatste-nieuws { flex-wrap: nowrap; } .laatste-nieuws__item { width: 46%; padding: 0 2%; } }
+.laatste-nieuws__item:first-of-type { margin-right: 0px; }
 
-.laatste-nieuws h2, .laatste-nieuws a { color: var(--c-1); }
+.laatste-nieuws__item:last-of-type { margin-top: 8px; }
+
+@media screen and (min-width: 1024px) { .laatste-nieuws__item { margin-top: 0; } .laatste-nieuws__item:last-of-type { margin-top: 0px; } .laatste-nieuws__item:first-of-type { margin-right: 7px; } }
+
+@media screen and (min-width: 1024px) { .laatste-nieuws { flex-wrap: nowrap; } .laatste-nieuws__item { width: 56%; padding: 0 2%; } }
+
+.laatste-nieuws a { color: var(--c-1); }
+
+.laatste-nieuws a:hover { color: var(--c-s1); }
 
 .laatste-nieuws h2 { padding: .7em 0; }
 
@@ -268,6 +278,8 @@ video { max-width: 100%; max-height: 40vh; border-radius: 8px; }
 
 @media screen and (min-width: 1024px) { .instr-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em 2em; } }
 
+video { background-color: #000; }
+
 /* =============================== HOME SPECIFIC STYLES ==================================*/
 .muziek { background-color: #f3d573; scroll-snap-align: start; }
 
@@ -412,5 +424,7 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 .ensemble__item p { font-size: .7em; padding: 12px; }
 
 .ensemble__item figcaption { position: absolute; top: 0; font-weight: bold; font-size: 1.8em; padding: 15px; word-break: break-all; }
+
+#posts .header { background-color: var(--c-s4); }
 
 /*# sourceMappingURL=style.css.map */
