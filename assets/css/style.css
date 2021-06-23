@@ -26,7 +26,9 @@ a:hover { color: var(--c-s1); }
 
 li { list-style: none; font-size: .9em; }
 
-button { color: #fff; padding: 16px 10px; width: 300px; border: none; border-radius: 8px; font-size: 1.2em; }
+button { color: #fff; width: 300px; border: none; border-radius: 8px; font-size: 1.2em; }
+
+button a { display: block; padding: 14px 10px; width: inherit; }
 
 button a, button a:hover { color: #fff; }
 
