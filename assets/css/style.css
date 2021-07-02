@@ -60,6 +60,8 @@ footer { min-height: 120px; }
 /* ============================= TOOLS ===============================*/
 .upcase { text-transform: uppercase; }
 
+.capitalize { text-transform: capitalize; }
+
 .spacer { height: 1.5em; }
 
 .blue { color: var(--c-1); }
@@ -103,14 +105,16 @@ footer { min-height: 120px; }
 
 .fourofour__title { position: fixed; top: 100px; right: 100px; color: #bbb; }
 
+.goback { background-color: #fff; color: var(--c-1); cursor: pointer; text-align: left; font-size: var(--mainvalue); font-family: var(--f-main); font-weight: bolder; transition: color .1s linear; }
+
+.goback:hover { color: var(--c-s1); }
+
 /* ============================= LINKS ===============================*/
 .muziek a, .bak a, .talen a { color: #fff; font-weight: bold; text-decoration: underline; }
 
 .muziek a:hover, .bak a:hover, .talen a:hover { color: var(--c-s1); text-decoration: none; }
 
 /* ======================================================================== OPGELET: TIJDELIJKE AANPASSINGEN --> STEEDS WEER VERANDEREN INDIEN NODIG ===========================================================================*/
-.footer-nav { display: none; }
-
 /* ============================= NAVIGATION ===============================*/
 .main-nav { position: fixed; top: .8em; left: -1.2em; z-index: 13; }
 
@@ -195,7 +199,7 @@ footer { min-height: 120px; }
 /* =============================== FOOTER ==================================*/
 footer { background-color: var(--c-s4); color: #fff; padding: 15px 0; }
 
-.footer-wrap { display: flex; justify-content: flex-end; }
+.footer-wrap { display: flex; justify-content: space-between; }
 
 .footer-nav { min-width: 30%; }
 
@@ -210,6 +214,15 @@ footer img { width: 40vw; max-width: 160px; padding-bottom: 5px; filter: brightn
 footer img.logo-dkf { max-width: 150px; }
 
 footer img.logo-duffel { max-width: 80px; }
+
+/* -----SOCIAL ICONS ----- */
+footer a svg { color: var(--c-1); }
+
+footer a { margin-right: 15px; color: var(--c-1); }
+
+footer a:hover svg { color: var(--c-s1); }
+
+footer li { margin-left: -42px; }
 
 /* =============================== LANDING SPECIFIC STYLES ==================================*/
 #landing { height: 105vh; background-color: #000; overflow: hidden; }
@@ -299,7 +312,7 @@ video { background-color: #000; }
 
 .muziek__item img { width: 100%; object-fit: contain; filter: saturate(50%); filter: sepia(0.1); opacity: .6; }
 
-.muziek__item figcaption { position: absolute; top: 1.5vw; left: 1.3vw; font-family: var(--ff-1); font-size: 2.8em; line-height: .8em; font-weight: bold; letter-spacing: .06em; }
+.muziek__item figcaption { position: absolute; top: 1.5vw; left: 1.3vw; font-family: var(--ff-1); font-size: 2.3em; line-height: .8em; font-weight: bold; letter-spacing: .06em; }
 
 @media screen and (min-width: 1024px) { .muziek__wrap, .bak__wrap { flex-wrap: nowrap; justify-content: space-around; } .muziek__item figcaption { position: absolute; top: .8vw; left: 1.3vw; font-size: 1.5em; line-height: 1em; } /* DIT IS MAAR WAT GEPROBEER, DIT MOET WEG ===========================================*/ .muziek__wrap--lessen { align-items: flex-start; justify-content: space-around; min-height: 50px; color: #fff; } /* TOT HIER !!!!! ===========================================*/ .muziek__item { padding: 2.5vw 2vw; } .muziek__item--1:first-of-type { order: 1; flex: 2; } .muziek__item--1:last-of-type { order: 2; flex: 3; } .muziek__item--2:first-of-type { order: 2; flex: 2; } .muziek__item--2:last-of-type { order: 1; flex: 3; } .muziek__item--2 figcaption { right: 1.3vw; text-align: right; } }
 
