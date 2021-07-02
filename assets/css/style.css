@@ -199,7 +199,9 @@ footer { min-height: 120px; }
 /* =============================== FOOTER ==================================*/
 footer { background-color: var(--c-s4); color: #fff; padding: 15px 0; }
 
-.footer-wrap { display: flex; justify-content: space-between; }
+.footer-wrap { display: flex; flex-direction: column; }
+
+@media screen and (min-width: 1024px) { .footer-wrap { display: flex; flex-direction: row; justify-content: space-between; } }
 
 .footer-nav { min-width: 30%; }
 
