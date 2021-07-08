@@ -1,4 +1,4 @@
-:root { /* COLORS */ --c-1: #39B5A8; --c-2: rgba(234,184,15, 1); --c-3: rgba(199,51,101,1); --c-4: rgb(239,62,112); /* COLORS secondary */ --c-s1: #39EAA8; --c-s2: rgba(243,214,117,1); --c-s3: rgb(140,36,67); --c-s4: #0A0C27; /* FONTS */ --ff-1: Helvetica-Neue, sans-serif; --ff-2: 'Playfair Display', georgia, serif; --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif; /* SIZES */ --main-value: 20px; }
+:root { /* COLORS */ --c-1: #39B5A8; --c-2: rgba(234,184,15, 1); --c-3: rgba(199,51,101,1); --c-4: rgb(239,62,112); /* COLORS secondary */ --c-s1: #39EAA8; --c-s2: rgba(243,214,117,1); --c-s3: rgb(140,36,67); --c-s4: #0A0C27; /* FONTS */ --ff-1: "Helvetica Neue", sans-serif; --ff-2: 'Playfair Display', georgia, serif; --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif; /* SIZES */ --main-value: 20px; }
 
 * { margin: 0; box-sizing: border-box; }
 
