@@ -75,6 +75,8 @@ footer { min-height: 120px; }
 
 .screenreader-text:focus { color: black; display: inline-block; height: auto; width: auto; position: static; margin: auto; }
 
+.active-link { color: #ef3e70; }
+
 /* <-- SKIPLINK */
 /* nog niet in gebruik
 ========================= */
