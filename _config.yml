@@ -1,46 +1,49 @@
+---
 title: de Kunstfabriek
-email: luc.vandijck@duffel.be
-description: de Kunstfabriek is een gemeentelijke school voor muziek, beeldende kunst en talen. Ze werkt in een ontspannen kader met een persoonlijke aanpak voor iedereen.
-url: "https://www.dekunstfabriekduffel.be"
 timezone: Europe/Brussels
-
-permalink: /:categories/:year/:month/:day/:title
-# let op: dit verandert alle links naar links zonder .html 
-# Heb dit dan moeten aanpassen in navigation.yml --> alle links zonder .html 
-
-
 collections:
-  instrumenten:
-    output: true
-    permalink: /:collection/:name
   afwezigen:
-    output: true
-  lesverplaatsing:
+    title: Afwezigen
     output: true
   ensembles:
+    title: Ensembles
     output: true
-    sort_by: "sort"
-    
-    
+    sort_by: sort
+  instrumenten:
+    title: Instrumenten
+    output: true
+    permalink: "/:collection/:name"
+  lesverplaatsing:
+    title: Lesverplaatsing
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: "instrumenten"
-    values:
-      layout: "instrument"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      category: "laatstenieuws"
-      permalink: /:categories/:year/:month/:day/:title.html
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
+- scope:
+    path: ''
+    type: instrumenten
+  values:
+    layout: instrument
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    category: laatstenieuws
+    permalink: "/:categories/:year/:month/:day/:title.html"
+- scope:
+    path: ''
+  values:
+    layout: default
+email: luc.vandijck@duffel.be
+description: de Kunstfabriek is een gemeentelijke school voor muziek, beeldende kunst
+  en talen. Ze werkt in een ontspannen kader met een persoonlijke aanpak voor iedereen.
+url: https://www.dekunstfabriekduffel.be
+permalink: "/:categories/:year/:month/:day/:title"
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
+- jekyll-seo-tag
+- jekyll-sitemap
