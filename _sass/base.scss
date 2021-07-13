@@ -1,0 +1,315 @@
+:root {
+  /* COLORS */
+  --c-1: #39B5A8;
+  --c-2: rgba(234,184,15, 1);
+  --c-3: rgba(199,51,101,1);
+  --c-4: rgb(239,62,112);
+  /* COLORS secondary */
+  --c-s1: #39EAA8;
+  --c-s2: rgba(243,214,117,1);
+  --c-s3: rgb(140,36,67);
+  --c-s4: #0A0C27;
+
+  /* FONTS */
+  --ff-1: "Helvetica Neue", sans-serif;
+  --ff-2: 'Playfair Display', georgia, serif;
+  --ff-main: 'Montserrat', Helvetica-Neue, helvetica, sans-serif;
+
+  /* SIZES */
+  --main-value: 20px;
+
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+  font-family: var(--ff-main);
+  color: #333;
+  font-size: var(--main-value);
+  line-height: 1.5em;
+  position: relative;
+    top: 140px
+}
+h1 {
+  font-size: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
+  font-family: var(--ff-1);
+  line-height: calc(30px + (76 - 30) * ((100vw - 375px) / (1100 - 375)));
+}
+h2 {
+  font-size: 1.8em;
+  font-family: var(--ff-1);
+  font-weight: 800;
+}
+h3 {
+  font-size: 1.6em;
+  font-family: var(--ff-2);
+  font-weight: 800;
+}
+h4 {
+    font-size: 1.4em;
+    font-family: var(--ff-2);
+    font-weight: 800;
+}
+p {
+  font-size: .7em;
+  line-height: 1.5em;
+}
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+  p {
+    font-size: .9em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1em;
+  }
+}
+a {
+  color: var(--c-1);
+  text-decoration: none;
+    font-weight: bold;
+    transition: color .1s linear;
+}
+a:hover {
+  color: var(--c-s1);
+}
+li {
+  list-style: none;
+  font-size: .9em;
+}
+button {
+  color: #fff;
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+    padding: 0;
+}
+button a {
+    display: block;
+    padding: 14px 10px;
+    width: inherit;
+}
+button a,
+button a:hover {
+  color: #fff;
+}
+table {
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: .75em;
+}
+@media screen and (min-width: 768px) {
+  table {
+    font-size: 1em;
+  }
+}
+th,
+td {
+  border-bottom: 2px solid var(--c-s2);
+}
+th {
+  border-top: 2px solid var(--c-s2);
+}
+td {
+  text-align: center;
+}
+td:first-child {
+  text-align: left;
+}
+section {
+  width: 100vw;
+}
+footer {
+  min-height: 120px;
+}
+/* =============================
+    layout styles
+===============================*/
+.row {
+    width: 87%;
+    margin: 0 auto;
+    /* min-height: 110px; */
+}
+@media screen and (min-width: 1024px) {
+    .row {
+/*        max-width: 900px;*/
+        width: 76vw;
+        margin: 0 7vw 0 17vw;
+    }
+}
+#landing main,
+#instrument main {
+  min-height: calc(88vh - 90px);
+}
+@media screen and (min-width: 1024px) {
+  #landing main,
+  #instrument main {
+    height: auto;
+      min-height: calc(88vh - 150px);
+  }
+}
+/* =============================
+    TOOLS
+===============================*/
+.upcase {
+  text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.spacer {
+    height: 1.5em;
+}
+.blue {
+    color: var(--c-1);
+}
+.nav-focus-color {
+    color: rgb(239,62,112);
+}
+.icon {
+  font-size: 1.9em;
+  position: relative;
+  bottom: -6px;
+}
+/* SKIPLINK --> */
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+.active-link {
+    color: rgb(239,62,112);
+}
+/* <-- SKIPLINK */
+
+/* nog niet in gebruik
+========================= */
+.laatste-nieuws {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  border: 1px solid var(--c-1);
+  border-radius: 8px;
+  flex-wrap:wrap;
+}
+.laatste-nieuws__item {
+  width: 100%;
+  padding: 0 2% 18px;
+    background-color: rgba(97,175,171, .13);
+    font-size: .8em;
+}
+.laatste-nieuws__item:first-of-type {
+    margin-right: 0px;
+//    background-color: rgba(97,175,171, .16);
+}
+
+.laatste-nieuws__item:last-of-type {
+    margin-top: 8px;
+}
+@media screen and (min-width: 1024px) {
+    .laatste-nieuws__item {
+        margin-top: 0;
+    }
+    .laatste-nieuws__item:last-of-type {
+        margin-top: 0px;
+    }
+    .laatste-nieuws__item:first-of-type {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .laatste-nieuws {
+    flex-wrap: nowrap;
+  }
+  .laatste-nieuws__item {
+    width: 56%;
+    padding: 0 2%;
+  }
+}
+//.laatste-nieuws h2,
+.laatste-nieuws a {
+  color: var(--c-1);
+}
+.laatste-nieuws a:hover {
+    color: var(--c-s1);
+}
+.laatste-nieuws h2 {
+  padding: .7em 0;
+}
+.laatste-nieuws a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+/* =============================
+   404-PAGE
+===============================*/
+.fourofour {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-wrap {
+        margin: 0 auto;
+    }
+    &__title {
+        position:fixed;
+        top: 100px;
+        right: 100px;
+        color: #bbb;
+    }
+}
+.goback {
+    background-color: #fff;
+    color: var(--c-1);
+    cursor: pointer;
+    text-align: left;
+    font-size: var(--mainvalue);
+    font-family: var(--f-main);
+    font-weight: bolder;
+    transition: color .1s linear;
+}
+.goback:hover {
+    color: var(--c-s1);
+}
+/* =============================
+    LINKS
+===============================*/
+.muziek a,
+.bak a,
+.talen a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.muziek a:hover,
+.bak a:hover,
+.talen a:hover {
+    color: var(--c-s1);
+    text-decoration: none;
+}
+
+/* ========================================================================
+    OPGELET: TIJDELIJKE AANPASSINGEN --> STEEDS WEER VERANDEREN INDIEN NODIG
+===========================================================================*/
+.footer-nav {
+//    display: none;
+}

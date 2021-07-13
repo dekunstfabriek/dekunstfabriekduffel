@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="kunstfabriek, muziekschool, lessen, les, beeldende, kunst, muziek, Duffel, talen, school, duffel, gemeente, naschoolse, vorming, muziekinitiatie, notenleer, samenspel">
+    <title>De Kunstfabriek {% if page.title == "landing" %} {{ page.title | remove: "landing"}} {% else %} {{ "|" }} {{ page.title | capitalize }} {% endif %} </title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image.png" href="/assets/img/Favicon-NEW-DKF.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+    {% seo title=false %}
+    <script src="/assets/js/headroom.js"></script>
+</head>
+<body id="{{ page.collection }}">
+    <a id='skip-nav' class='screenreader-text' href='#top'>
+        Skip to Content
+    </a>

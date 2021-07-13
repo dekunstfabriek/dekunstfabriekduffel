@@ -1,0 +1,46 @@
+title: de Kunstfabriek
+email: luc.vandijck@duffel.be
+description: de Kunstfabriek is een gemeentelijke school voor muziek, beeldende kunst en talen. Ze werkt in een ontspannen kader met een persoonlijke aanpak voor iedereen.
+url: "https://www.dekunstfabriekduffel.be"
+timezone: Europe/Brussels
+
+permalink: /:categories/:year/:month/:day/:title
+# let op: dit verandert alle links naar links zonder .html 
+# Heb dit dan moeten aanpassen in navigation.yml --> alle links zonder .html 
+
+
+collections:
+  instrumenten:
+    output: true
+    permalink: /:collection/:name
+  afwezigen:
+    output: true
+  lesverplaatsing:
+    output: true
+  ensembles:
+    output: true
+    sort_by: "sort"
+    
+    
+defaults:
+  - scope:
+      path: ""
+      type: "instrumenten"
+    values:
+      layout: "instrument"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "laatstenieuws"
+      permalink: /:categories/:year/:month/:day/:title.html
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  

@@ -1,0 +1,66 @@
+    <footer class="footer-{{ page.collection }}">
+        <div class="footer-wrap row">
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="/inopbouw.html">Muziek</a></li>
+              <li><a href="/instrumenten">Instrumenten</a></li>
+              <li><a href="/samenspel">Samenspel</a></li>
+              <li><a href="/inopbouw.html">Muzieklab (voorheen notenleer)</a></li>
+              <li><a href="/inopbouw.html">Kunstlab (voorheen muziekinitiatie)</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="/inschrijvingen">Inschrijvingen</a></li>
+              <li><a href="/beeldende-vorming.html">Beeldende Vorming</a></li>
+              <li><a href="/inopbouw.html">Talen</a></li>
+              {% include socials.html %}
+              </ul>
+          </nav>
+            <div class="footer-row">
+                <div class="footer-part">
+                  <img src={{ "/assets/img/duffel_logo_klein.png" | relative_url }} alt="logo van de gemeente Duffel" class="logo-duffel">
+                </div>
+                <div class="footer-part">
+                  <img src={{ "/assets/img/DeKunstfabriek-logo-klein.png" | relative_url }} alt="oude logo van de kunstfabriek" class="logo-dkf">
+                </div>
+            </div><!-- footer-row -->
+          </div><!-- footer-wrap -->
+            <div class="row">
+                <div class="footer-contact">
+                  <p>contact: <span><a href="mailto:dekunstfabriek@duffel.be">dekunstfabriek@duffel.be</a></span></p> 
+                </div>
+            </div>
+    </footer>
+<!--    <script src="/assets/js/hamburger.js"></script>-->
+    <script>
+        
+        if (document.documentElement.clientWidth < 1024) {
+				// ZET HIER HET SCRIPT TUSSEN ALS JE WILT DAT HET PAS WERKT BIJ EEN SCREENWIDTH VAN MINDER DAN 1024px
+            var myElement = document.getElementById("header");
+			// construct an instance of Headroom, passing the element
+			var headroom  = new Headroom(myElement, {
+				tolerance: {
+					down : 4,
+					up : 12
+				},
+				offset: 
+					200
+			});
+			// met volgende functie werkt headroom niet bij de landing page
+			var el = document.getElementById('landing');
+			if (el == null) {
+				headroom.init();
+			}
+			else {
+				headroom.destroy();
+			}
+			}
+            // let op: dit heb ik moeten veranderen om het goed te laten werken:
+            // Z-indexen veranderd bij headroom-classen en hamburger-classes en navigation
+            // op de "body" heb ik top: 140px moeten plaatsen
+            // @media toegevoegd voor .header--fixed en body (in navigation.scss
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+/* ===============================
+    HEADER
+==================================*/
+#landing .header {
+  background-color: #000;
+  padding-bottom: 0.3em;
+  color: #fff;
+  max-height: 240px;
+}
+.header h1 {
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+@media screen and (max-width: 321px) {
+  .header2 h1 {
+    font-size: 28px;
+  }
+}
+.header h1 a,
+.header h1 a:visited,
+.header h1 a:active,
+.header h1 a:link {
+  color: #fff;
+}
+.header p {
+	padding-top: 4px;
+  padding-bottom: 10px;
+	color: #fff;
+	font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375)));
+  line-height: calc(11px + (20 - 11) * ((100vw - 375px) / (1100 - 375)));
+  text-align: center;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header__item img {
+  width: 8vw;
+  max-width: 43px;
+  padding-top: 12px;
+}
+@media screen and (min-width: 1024px) {
+  .header__item img {
+    width: 56px;
+    max-width: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__item img {
+    width: 72px;
+    max-width: 72px;
+      padding-right: 7px;
+  }
+  .header p {
+    text-align: left;
+  }
+}

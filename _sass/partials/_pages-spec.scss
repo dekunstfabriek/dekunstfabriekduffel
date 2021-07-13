@@ -1,0 +1,579 @@
+
+/* ===============================
+    LANDING SPECIFIC STYLES
+==================================*/
+#landing {
+  height: 105vh;
+    background-color: #000;
+    overflow: hidden;
+    main {
+          background: url(../img/strijkers.jpg) no-repeat center center;
+          background-size: 150%;
+          background-color: #000;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+    }
+    button {
+        margin-bottom: 4vh;
+    }
+    button:last-of-type {
+        margin-bottom: 10vh;
+    }
+}
+.btn-roze {
+  background-color: var(--c-4);
+    transition: all .2s linear;
+}
+.btn-blauw {
+  background-color: var(--c-1);
+    transition: all .2s linear;
+}
+button.btn-roze:hover {
+    background-color: var(--c-3);
+}
+button.btn-blauw:hover  {
+    background-color: var(--c-s1);
+}
+@media screen and (min-width: 1024px) {
+  #landing main {
+    background-size: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #landing button {
+    margin: 0 16px 10vh;
+  }
+}
+/* TODO: de precieze hoogte nog uitrekenen */
+
+/* ===============================
+    INSTRUMENT SPECIFIC STYLES
+==================================*/
+.kunstroute__img {
+    max-width: 800px;
+    max-height: 565px;
+    img {
+        width: 100%;
+    }
+}
+#kunstroute .header,
+#instrument .header {
+  background-color: var(--c-4);
+  color: #fff;
+}
+.footer-kunstroute,
+.footer-instrument,
+.footer-instrumenten {
+/*  background-color: var(--c-4);*/
+}
+#kunstroute main,
+#instrument main {
+  background: #fff;
+}
+.footer-kunstroute img,
+.footer-instrument img {
+  filter: brightness(1);
+}
+.voorstelling h2,
+.voorstelling h3 {
+  padding: 16px 0;
+}
+.voorstelling h2 {
+  padding-top: 23px;
+  font-size: 1.7em;
+  color: var(--c-4);
+}
+.voorstelling h3 {font-size: 1.2em;}
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+  .voorstelling h2 {font-size: 2.3em;}
+}
+@media screen and (min-width: 1024px) {
+  .voorstelling h2 {font-size: 2.9em;}
+  .voorstelling h3 {font-size: 1.6em;}
+}
+.voorstelling p {
+  padding: 4px 0 10px;
+}
+video {
+  max-width: 100%;
+  max-height: 40vh;
+  border-radius: 8px;
+}
+
+/* ===============================
+    HOME SPECIFIC STYLES
+==================================*/
+#home .header {
+  background-color: var(--c-s4);
+    h2 {
+        color: crimson;
+        line-height: 1em;
+    }
+    footer img {
+        filter: brightness(1);
+    }
+}
+.footer-home {
+/*  background-color: var(--c-2);*/
+}
+.aanwezig {
+    color:#000;
+    font-weight: bolder;
+}
+
+/* ===============================
+    INSTRUMENT SPECIFIC STYLES
+==================================*/
+#instrumenten .header {
+    background-color: var(--c-4);
+}
+#instrumenten h2 {
+    line-height: 1em;
+    padding: 16px 0;;
+}
+#instrumenten h3 {
+    padding: 16px 0;
+}
+#instrumenten footer img {
+  filter: brightness(1);
+}
+.instr-wrap {
+    margin-bottom: 38px;
+}
+.instr-grid {
+    display: block;
+}
+@media screen and (min-width: 1024px) {
+    .instr-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em 2em;
+    }
+}
+.instr-item {
+//    content-visibility: auto;
+//    contain-intrinsic-size: 400px;
+}
+video {
+    background-color: #000;
+}
+/* ===============================
+    HOME SPECIFIC STYLES
+==================================*/
+
+.muziek {
+  background-color: #f3d573;
+  scroll-snap-align: start;
+}
+.muziek__wrap {
+  background-color: #e9b809;
+  min-height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bak__wrap {
+  background-color: var(--c-4);
+  min-height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.talen__wrap {
+  background-color: var(--c-1);
+  min-height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.muziek__item {
+  position: relative;
+  color: #fff;
+  padding: 3.5vw;
+}
+.muziek__item img {
+  width: 100%;
+  object-fit: contain;
+  filter: saturate(50%);
+  filter: sepia(.1);
+  opacity: .6;
+}
+.muziek__item figcaption {
+  position: absolute;
+  top: 1.5vw;
+  left: 1.3vw;
+  font-family: var(--ff-1);
+  font-size: 2.3em;
+  line-height: .8em;
+  font-weight: bold;
+  letter-spacing: .06em;
+}
+@media screen and (min-width: 1024px) {
+  .muziek__wrap,
+  .bak__wrap {
+    flex-wrap: nowrap;
+      justify-content: space-around;}
+  .muziek__item figcaption {
+    position: absolute;
+    top: .8vw;
+    left: 1.3vw;
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  
+  /* DIT IS MAAR WAT GEPROBEER, DIT MOET WEG
+  ===========================================*/
+  .muziek__wrap--lessen {
+    align-items: flex-start;
+    justify-content: space-around;
+    min-height: 50px;
+    color: #fff;
+  }
+  /* TOT HIER !!!!!
+  ===========================================*/
+  .muziek__item {
+    padding: 2.5vw 2vw;
+  }
+  .muziek__item--1:first-of-type {
+    order: 1;
+    flex: 2;
+  }
+  .muziek__item--1:last-of-type {
+    order: 2;
+    flex: 3;
+  }
+  .muziek__item--2:first-of-type {
+    order: 2;
+    flex: 2;
+  }
+  .muziek__item--2:last-of-type {
+    order: 1;
+    flex: 3;
+  }
+  .muziek__item--2 figcaption {
+    right: 1.3vw;
+    text-align: right;
+  }
+}
+.bak {
+  background-color: rgba(199,51,101,.6);;
+}
+.talen {
+  background-color: rgba(57, 181, 168,.6);
+}
+@media screen and (min-width: 1024px) {
+
+}
+.slogan {
+  padding: 100px 20px;
+  text-align: center;
+  color: var(--c-3);
+}
+q {
+  /* border-left: 4px solid var(--c-1); */
+  /* padding-left: 12px; */
+  font-family: var(--ff-2);
+  letter-spacing: .1em;
+    font-size: 1.4em;
+}
+q:before {
+  content: "";
+}
+q:after {
+  content: "";
+}
+.muziek-wrap h1 {
+  color: rgba(234,184,15, 1);
+  font-size: 4.5em;
+}
+.muziek-wrap p {
+  padding-bottom: 2em;
+}
+/* ===============================
+    POSTS SPECIFIC STYLES
+==================================*/
+#nieuws .header {
+    background-color: var(--c-s4);
+}
+.nieuws {
+    padding: 2em 0;
+    h3,
+    p {
+        margin: 16px 0;
+    }
+//    ul {
+//        display: grid;
+//        grid-template-columns: repeat(2, 1fr);
+//    }
+    li {
+        border: 1px solid var(--c-1);
+        border-radius: 5px;
+        padding: 0 8px;
+    }
+}
+.nieuws__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* ===============================
+    POSTS SPECIFIC STYLES
+==================================*/
+
+#inschrijvingen .header {
+  background-color: #000;
+}
+.inschrijvingen {
+  margin: 1em 0;
+}
+.inschrijvingen article {
+  padding: 10px 0;
+  column-count: 1;
+}
+@media screen and (min-width: 1024px) {
+  .inschrijvingen article {
+    column-count: 2;
+    column-gap: 12px;
+  }
+}
+#inschrijvingen p {
+  font-size: .9em;
+  padding-bottom: .28em;
+}
+// FIX VOOR FONT-SIZE PARAGRPH IN HEADER;
+#inschrijvingen .header p  {
+    font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375)));
+}
+// einde FIX
+
+#inschrijvingen h2 {
+  color: var(--c-1);
+  margin-bottom: 15px;
+}
+#inschrijvingen h3 {
+  margin: 15px 0;
+}
+.inschrijvingen-hoe {
+  margin-bottom: 40px;
+}
+.disc li {
+    list-style: disc;
+    font-size: .9em;
+}
+/* ===============================
+    INSCHRIJVINGEN 2 styles
+==================================*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:0;
+  margin: 35px 0;
+}
+.grid article {
+  padding: 14px;
+  border-left: 1px solid rgba(207,99,22, 1);
+}
+.grid aside {
+  padding: 10px;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:1.5em;
+    margin: 97px 0;
+  }
+  .klassik article,
+  .samen article {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .klassik aside,
+  .samen aside {
+    grid-column: 4/6;
+    grid-row: 1/2
+  }
+  .indiv article {
+    grid-column: 3/6;
+    grid-row: 1/2;
+  }
+  .indiv aside {
+    grid-column: 1/3;
+    grid-row: 1/2
+  }
+  .grid article {
+    border: none;
+  }
+}
+.klassik aside {
+  background-color: var(--c-4);
+}
+.indiv aside {
+  /* background-color: #1569C7; */
+  background-color: var(--c-2);
+}
+.samen aside {
+  /* background-color: #FF8F3F; */
+  background-color: var(--c-1);
+}
+.procedure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.procedure__item {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+.procedure__item:last-of-type {
+  border: none;
+}
+aside a {
+  color: #fff;
+  display: block;
+}
+.btn {
+  padding: 15px;
+  min-width: 80%;
+  /* background-color: var(--c-1); */
+  background-color: var(--c-s2);
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: rgb(0,65,70);
+}
+.lesuren__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.lesuren__item th {
+  font-weight: bolder;
+  padding: 5px 0;
+  border-top: 2px solid var(--c-3);
+  color: #000;
+}
+.lesuren__item th,
+.lesuren__item td {
+  border-bottom: 2px solid var(--c-3);
+}
+.lesuren__andere th,
+.lesuren__andere td {
+  border-bottom: 2px solid var(--c-1);
+}
+.lesuren__andere th {
+  border-top: 2px solid var(--c-1);
+}
+th.no-border-top {
+  border-top: none;
+}
+@media screen and (min-width: 1024px) {
+  .lesuren__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+}
+/* ===============================
+    MUZIEK samenspel instrument...
+==================================*/
+#samenspel  .header {
+  background-color: var(--c-1);
+}
+#samenspel footer {
+  /* background-color: var(--c-2); */
+}
+#samenspel footer img {
+  filter: brightness(1);
+}
+#samenspel main {
+  background-color: white;
+}
+#samenspel .muziek__head h1 {
+  color: var(--c-1);
+  margin: 25px 0;
+}
+.ensemble__head {
+  margin-top: 15px;
+}
+.ensemble img {
+  width: 100%;
+}
+.ensemble__wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 610px) and (max-width: 1024px) {
+  .ensemble__wrap {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.1em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ensemble__wrap {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.1em;
+  }
+}
+.ensemble__wrap article {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.ensemble__item--img {
+  border-radius: 8px 8px 0 0;
+}
+.ensemble__item {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+.ensemble__item--uitleg {
+  flex-grow: 1;
+}
+.ensemble__item--instr {
+  background-color: var(--c-1);
+  border-radius: 0 0 8px 8px;
+    min-height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ensemble__item img {
+  width: 100%;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+img.blackback {
+  background-color: #000;
+  filter: opacity(.6);
+}
+.ensemble__item p {
+  font-size: .7em;
+  padding: 12px;
+}
+.ensemble__item figcaption {
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 15px;
+  word-break: break-all;
+}
+/* ===============================
+    BEELDENDE VORMING
+==================================*/
+#beeldende-vorming .header {
+    background-color: var(--c-2);
+}
+#beeldende-vorming main {
+    min-height: 50vh;
+}

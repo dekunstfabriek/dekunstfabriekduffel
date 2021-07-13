@@ -1,0 +1,10 @@
+- name: home
+  link: /home
+- name: instrumenten
+  link: /instrumenten
+- name: inschrijvingen
+  link: /inschrijvingen
+- name: samenspel
+  link: /samenspel
+- name: laatste nieuws
+  link: /posts
