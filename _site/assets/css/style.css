@@ -411,6 +411,8 @@ th.no-border-top { border-top: none; }
 
 @media screen and (min-width: 1024px) { .lesuren__grid { grid-template-columns: 1fr 1fr; gap: 2em; } }
 
+.to-top { margin-bottom: 27px; }
+
 /* =============================== MUZIEK samenspel instrument... ==================================*/
 #samenspel .header { background-color: var(--c-1); }
 

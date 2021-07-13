@@ -468,7 +468,7 @@
             </table>
         </div>
       </div><!-- lesuren__grid -->
-      <div class="row" style="margin-bottom: 25px;">
+      <div class="row to-top">
         <a href="#top">Back to top &#8593;</a>
       </div>
     </section>
@@ -511,35 +511,8 @@
                 </div>
             </div>
     </footer>
-<!--    <script src="/assets/js/hamburger.js"></script>-->
-    <script type="text/javascript">
-        
-        if (document.documentElement.clientWidth < 1024) {
-				// ZET HIER HET SCRIPT TUSSEN ALS JE WILT DAT HET PAS WERKT BIJ EEN SCREENWIDTH VAN MINDER DAN 1024px
-            var myElement = document.getElementById("header");
-			// construct an instance of Headroom, passing the element
-			var headroom  = new Headroom(myElement, {
-				tolerance: {
-					down : 4,
-					up : 12
-				},
-				offset: 
-					200
-			});
-			// met volgende functie werkt headroom niet bij de landing page
-			var el = document.getElementById('landing');
-			if (el == null) {
-				headroom.init();
-			}
-			else {
-				headroom.destroy();
-			}
-			}
-            // let op: dit heb ik moeten veranderen om het goed te laten werken:
-            // Z-indexen veranderd bij headroom-classen en hamburger-classes en navigation
-            // op de "body" heb ik top: 140px moeten plaatsen
-            // @media toegevoegd voor .header--fixed en body (in navigation.scss
-    </script>
+
+    <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
 
