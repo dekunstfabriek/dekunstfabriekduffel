@@ -1,4 +1,6 @@
 ---
+title: Inschrijvingen
+date: 2021-05-28 00:00:00 +02:00
 layout: post
 author: luc
 ---
