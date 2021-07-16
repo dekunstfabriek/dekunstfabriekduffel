@@ -4,9 +4,17 @@ permalink: "/home"
 layout: default
 quote1: Vind de artiest in jezelf!
 quote2: Muziek geeft je kriebels
-info_muziek: De muziekafdeling van De Kunstfabriek werkt zoals een muziekacademie, maar met een persoonlijke aanpak, zonder examens en in een ontspannen kader. De instrumentlessen zijn één-op-één zodat je een persoonlijk traject kan volgen op een professionele manier. Van de cursist wordt verwacht dat hij een regelmatige inzet toont.
-info_BV: In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten via verschillende technieken en met allerlei materialen. Voor volwassenen wordt de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.
-info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onze lesgevers zijn wel allemaal professioneel opgeleid.
+info_muziek: De muziekafdeling van De Kunstfabriek werkt zoals een muziekacademie,
+  maar met een persoonlijke aanpak, zonder examens en in een ontspannen kader. De
+  instrumentlessen zijn één-op-één zodat je een persoonlijk traject kan volgen op
+  een professionele manier. Van de cursist wordt verwacht dat hij een regelmatige
+  inzet toont.
+info_BV: In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt
+  kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten
+  via verschillende technieken en met allerlei materialen. Voor volwassenen wordt
+  de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.
+info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onze
+  lesgevers zijn wel allemaal professioneel opgeleid.
 ---
 
   <main id="top">
