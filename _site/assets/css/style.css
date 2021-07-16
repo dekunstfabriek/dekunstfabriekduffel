@@ -90,7 +90,7 @@ footer { min-height: 120px; }
 
 @media screen and (min-width: 1024px) { .laatste-nieuws__item { margin-top: 0; } .laatste-nieuws__item:last-of-type { margin-top: 0px; } .laatste-nieuws__item:first-of-type { margin-right: 7px; } }
 
-@media screen and (min-width: 1024px) { .laatste-nieuws { flex-wrap: nowrap; } .laatste-nieuws__item { width: 56%; padding: 0 2%; } }
+@media screen and (min-width: 1024px) { .laatste-nieuws { flex-wrap: nowrap; } .laatste-nieuws__item { width: 48%; padding: 0 2%; } }
 
 .laatste-nieuws a { color: var(--c-1); }
 

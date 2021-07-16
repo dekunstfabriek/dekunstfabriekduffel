@@ -20,7 +20,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                     <p>{{ post.date | date_to_string }}</p>
                </div>
-                {{ post.excerpt | truncatewords: 12 }}
+                {{ post.excerpt | truncatewords: 12 | markdownify }}
             {% endfor %}
             <a href="/posts">meer Laatste Nieuws items ...</a>
         </div>
@@ -36,7 +36,6 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
                   {% endif %}
                 {% endfor %}
           </p>
-          <!-- <div class="spacer"></div> -->
           <p class="blue"><span class="aanwezig">Lesverplaatsing op: </span><br>
              {% capture now %}{{"now" | date: "%s" | plus: 0 }}{% endcapture %}
                 {% for lesverplaatsing in site.lesverplaatsing %}
@@ -56,7 +55,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
       <div class="muziek__wrap row">
         <div class="muziek__item muziek__item--1">
          <a href="/">
-          <img src="assets/img/strijkers3.jpg" alt="optreden door vioolklas in de Plaza in 2020">
+          <img src="/assets/img/strijkers3.jpg" alt="optreden door vioolklas in de Plaza in 2020">
          </a>
           <figcaption class="upcase">muziek</figcaption>
         </div>
@@ -86,7 +85,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
       <div class="bak__wrap row">
         <div class="muziek__item muziek__item--2">
          <a href="/">
-          <img src="assets/img/strijkers3.jpg" alt="beeldende kunsten">
+          <img src="/assets/img/strijkers3.jpg" alt="beeldende kunsten">
          </a>
           <figcaption class="upcase">beeldende vorming</figcaption>
         </div>
@@ -108,7 +107,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
       <div class="talen__wrap row">
         <div class="muziek__item muziek__item--1">
          <a href="/">
-          <img src="assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo">
+          <img src="/assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo">
          </a>
           <figcaption class="upcase">talen</figcaption>
         </div>
