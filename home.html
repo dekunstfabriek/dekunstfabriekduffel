@@ -2,6 +2,11 @@
 title: home
 permalink: "/home"
 layout: default
+quote1: Vind de artiest in jezelf!
+quote2: Muziek geeft je kriebels
+info_muziek: De muziekafdeling van De Kunstfabriek werkt zoals een muziekacademie, maar met een persoonlijke aanpak, zonder examens en in een ontspannen kader. De instrumentlessen zijn één-op-één zodat je een persoonlijk traject kan volgen op een professionele manier. Van de cursist wordt verwacht dat hij een regelmatige inzet toont.
+info_BV: In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten via verschillende technieken en met allerlei materialen. Voor volwassenen wordt de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.
+info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onze lesgevers zijn wel allemaal professioneel opgeleid.
 ---
 
   <main id="top">
@@ -57,7 +62,7 @@ layout: default
         </div>
         <div class="muziek__item muziek__item--1">
           <h3>info</h3>
-          <p>De muziekafdeling van De Kunstfabriek werkt zoals een muziekacademie, maar met een persoonlijke aanpak, zonder examens en in een ontspannen kader. De instrumentlessen zijn één-op-één zodat je een persoonlijk traject kan volgen op een professionele manier. Van de cursist wordt verwacht dat hij een regelmatige inzet toont. </p>
+          <p>{{ page.info_muziek }}</p>
 <!--          <a href="/">meer info</a>-->
         </div>
       </div><!-- muziek__wrap -->
@@ -73,7 +78,7 @@ layout: default
 
     <!-- SLOGAN -->
     <div class="slogan row">
-      <q cite=""><i>Vind de artiest in jezelf!</i></q>
+      <q cite=""><i>{{ page.quote1 }}</i></q>
     </div>
 
     <!-- BEELDENDE VORMING -->
@@ -87,7 +92,7 @@ layout: default
         </div>
         <div class="muziek__item muziek__item--2">
           <h3>info</h3>
-          <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten via verschillende technieken en met allerlei materialen. Voor volwassenen wordt de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken. </p>
+          <p>{{ page.info_BV }}</p>
 <!--          <a href="/">meer info</a>-->
         </div>
       </div><!-- bak__wrap -->
@@ -95,7 +100,7 @@ layout: default
 
     <!-- SLOGAN -->
     <div class="slogan row">
-      <q cite=""><i>Muziek geeft je kriebels</i></q>
+      <q cite=""><i>{{ page.quote2 }}</i></q>
     </div>
 
     <!-- TALEN -->
@@ -109,7 +114,7 @@ layout: default
         </div>
         <div class="muziek__item muziek__item--1">
           <h3>info</h3>
-          <p>De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onze lesgevers zijn wel allemaal professioneel opgeleid.</p>
+          <p>{{ page.info_talen }}</p>
           <p>De Kunstfabriek werkt in een ontspannen kader, zonder examens, en met een persoonlijke aanpak. </p>
 <!--          <a href="/">meer info</a>-->
         </div>
