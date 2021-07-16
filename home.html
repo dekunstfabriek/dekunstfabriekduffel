@@ -5,7 +5,7 @@ layout: default
 ---
 
   <main id="top">
-   
+
     <div class="laatste-nieuws row">
         <div class="laatste-nieuws__item">
           <h2>Laatste Nieuws</h2>
@@ -27,7 +27,7 @@ layout: default
                   {% capture date %}{{afwezig.date | date: "%s" | plus: 86400 }}{% endcapture %}
                   {% if date >= now %}
                     <!-- post content here -->
-                    {{ afwezig.leraar }} &#8680; {{ afwezig.date | date: '%a %d %b %Y' }} <small>{{ afwezig.reden }}</small> <br> 
+                    {{ afwezig.leraar }} &#8680; {{ afwezig.date | date: '%a %d %b %Y' }} <small>{{ afwezig.reden }}</small> <br>
                   {% endif %}
                 {% endfor %}
           </p>
@@ -38,15 +38,15 @@ layout: default
                   {% capture date %}{{lesverplaatsing.date | date: "%s" | plus: 86400 }}{% endcapture %}
                   {% if date >= now %}
                     <!-- post content here -->
-                    {{ lesverplaatsing.leraar }} &#8680; {{ lesverplaatsing.date | date: '%a %d %b %Y' }} <br> 
+                    {{ lesverplaatsing.leraar }} &#8680; {{ lesverplaatsing.date | date: '%a %d %b %Y' }} <br>
                   {% endif %}
                 {% endfor %}
-          </p> 
+          </p>
         </div>
-    </div><!-- laatste-nieuws -->
+    </div> <!-- laatste-nieuws -->
 
     <!-- MUZIEK -->
-    
+
     <div class="muziek">
       <div class="muziek__wrap row">
         <div class="muziek__item muziek__item--1">
@@ -120,6 +120,5 @@ layout: default
       <hr>
       <br>
     </div><!-- voorstelling -->
-    
-  </main>
 
+  </main>
