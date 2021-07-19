@@ -29,7 +29,7 @@ description: Filmpjes met een voorstelling van alle instrumenten die worden aang
 
               </video>
 
-            <p>{{ instrument.vraag }} </p>
+            <p>{{ instrument.vraag | markdownify }} </p>
         </div>
 
         {% endfor %}

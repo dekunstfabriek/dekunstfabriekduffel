@@ -6,11 +6,9 @@ layout: default-posts
     <div class="instr-item">
         <h3>{{ page.instrument }}</h3>
         <video src="../assets/video/{{ page.video }}" controls preload="auto"></video>
-        <p>{{ page.vraag }} </p>
-        
+        <p>{{ page.vraag | markdownify }} </p>
+
         {% include spacer.html %}
-        
+
     </div>
 </div>
-
-
