@@ -35,7 +35,7 @@ defaults:
     layout: post
     category: laatstenieuws
     permalink: "/:categories/:year/:month/:day/:title.html"
-    author: 'Lieve'
+    author: Lieve
 - scope:
     path: ''
     type: afwezigen
