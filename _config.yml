@@ -39,8 +39,8 @@ defaults:
     path: ''
     type: afwezigen
   values:
-    leraar: ' '
-    reden: ' '
+    leraar: " "
+    reden: " "
 - scope:
     path: ''
   values:
