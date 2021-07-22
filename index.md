@@ -1,6 +1,6 @@
 ---
 title: landing
-other_link: samenspel
+other_link: inschrijvingen
 layout: landing
 ---
 
