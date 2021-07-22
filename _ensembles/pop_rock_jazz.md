@@ -6,6 +6,6 @@ image: poprock.jpg
 alt_text: samenspel groep die optreed op de nacht van den elentrik
 instrumenten: zang - keyboards - gitaar - basgitaar - drums - blazers
 overlay: blackback
-sort: a
+sort: b
 ---
 
