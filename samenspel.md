@@ -6,7 +6,7 @@ alt_tekst: collage van foto's van samenspelgroepen, maar ook banner met de tekst
 description: In groep muziek spelen is één van de leukste dingen die je kan doen met
   je muziekinstrument. Bekijk hier alle mogelijke samenspel groepen van dit jaar in
   de Kunstfabriek.
-intro_text:
+intro_text: 
 ---
 
 <main id="top">
