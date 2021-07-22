@@ -1,7 +1,7 @@
 ---
 title: landing
+other_link: samenspel
 layout: landing
-other_link: inschrijvingen
 ---
 
   <main id="top">
