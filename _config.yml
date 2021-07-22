@@ -35,12 +35,18 @@ defaults:
     layout: post
     category: laatstenieuws
     permalink: "/:categories/:year/:month/:day/:title.html"
+    author: 'Lieve'
 - scope:
     path: ''
     type: afwezigen
   values:
     leraar: " "
     reden: " "
+- scope:
+    path: ''
+    type: lesverplaatsing
+  values:
+    leraar: " "
 - scope:
     path: ''
   values:

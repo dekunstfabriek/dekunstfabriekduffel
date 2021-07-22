@@ -40,7 +40,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
                   {% capture date %}{{afwezig.date | date: "%s" | plus: 86400 }}{% endcapture %}
                   {% if date >= now %}
                     <!-- post content here -->
-                    {{ afwezig.leraar }} &#8680; {{ afwezig.date | date: '%a %d %b %Y' }} <small>{{ afwezig.reden }}</small> <br>
+                    &#8680; {{ afwezig.date | date: '%a %d %b %Y' }} - {{ afwezig.leraar }} <small>{{ afwezig.reden }}</small> <br>
                   {% endif %}
                 {% endfor %}
           </p>
@@ -50,7 +50,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
                   {% capture date %}{{lesverplaatsing.date | date: "%s" | plus: 86400 }}{% endcapture %}
                   {% if date >= now %}
                     <!-- post content here -->
-                    {{ lesverplaatsing.leraar }} &#8680; {{ lesverplaatsing.date | date: '%a %d %b %Y' }} <br>
+                    &#8680; {{ lesverplaatsing.date | date: '%a %d %b %Y' }} - {{ lesverplaatsing.leraar }} <br>
                   {% endif %}
                 {% endfor %}
           </p>
