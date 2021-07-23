@@ -14,7 +14,7 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
           <p>Je bent duidelijk geinteresseerd in de lessen van de Kunstfabriek anders had je deze pagina niet gevonden.</p>
           <p>Als je graag volgend schooljaar lessen wil volgen in de Kunstfabriek kan je je inschrijven vanaf <strong><u>7 juli</u></strong>.</p>
           <p>Wil je eerst nog wat informatie over de lessen, wanneer ze gegeven worden of hoeveel ze kosten, dan kan je eerst nog wat rondkijken op deze website.</p>
-          <p>Wil je nog meer info, of heb je specifieke vragen dan kan je die stellen aan dekunstfabriek@duffel.be of telefonisch aan de dienst “Vrije Tijd” van de gemeente Duffel 015 307 245.</p>
+          <p>Wil je nog meer info, of heb je specifieke vragen dan kan je die stellen aan dekunstfabriek@duffel.be of telefonisch aan de dienst “Vrije Tijd” van de gemeente Duffel 015 307 250.</p>
         </article>
 
       </div>
