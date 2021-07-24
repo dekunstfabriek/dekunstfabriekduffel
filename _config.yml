@@ -1,6 +1,7 @@
 ---
 title: de Kunstfabriek
 timezone: Europe/Brussels
+locale: nl_BE
 collections:
   afwezigen:
     title: Afwezigen

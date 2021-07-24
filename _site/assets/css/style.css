@@ -53,9 +53,9 @@ footer { min-height: 120px; }
 
 @media screen and (min-width: 1024px) { .row { /*        max-width: 900px;*/ width: 76vw; margin: 0 7vw 0 17vw; } }
 
-#landing main, #instrument main { min-height: calc(88vh - 90px); }
+#kunstfabriek main, #instrument main { min-height: calc(88vh - 90px); }
 
-@media screen and (min-width: 1024px) { #landing main, #instrument main { height: auto; min-height: calc(88vh - 150px); } }
+@media screen and (min-width: 1024px) { #kunstfabriek main, #instrument main { height: auto; min-height: calc(88vh - 150px); } }
 
 /* ============================= TOOLS ===============================*/
 .upcase { text-transform: uppercase; }
@@ -230,14 +230,14 @@ footer a:hover svg { color: var(--c-s1); }
 
 footer li { margin-left: -42px; }
 
-/* =============================== LANDING SPECIFIC STYLES ==================================*/
-#landing { height: 105vh; background-color: #000; overflow: hidden; }
+/* =============================== kunstfabriek SPECIFIC STYLES ==================================*/
+#kunstfabriek { height: 105vh; background-color: #000; overflow: hidden; }
 
-#landing main { background: url(../img/strijkers.jpg) no-repeat center center; background-size: 150%; background-color: #000; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+#kunstfabriek main { background: url(../img/strijkers.jpg) no-repeat center center; background-size: 150%; background-color: #000; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
 
-#landing button { margin-bottom: 4vh; }
+#kunstfabriek button { margin-bottom: 4vh; }
 
-#landing button:last-of-type { margin-bottom: 10vh; }
+#kunstfabriek button:last-of-type { margin-bottom: 10vh; }
 
 .btn-roze { background-color: var(--c-4); transition: all .2s linear; }
 
@@ -247,7 +247,7 @@ button.btn-roze:hover { background-color: var(--c-3); }
 
 button.btn-blauw:hover { background-color: var(--c-s1); }
 
-@media screen and (min-width: 1024px) { #landing main { background-size: 100%; flex-direction: row; justify-content: center; align-items: flex-end; } #landing button { margin: 0 16px 10vh; } }
+@media screen and (min-width: 1024px) { #kunstfabriek main { background-size: 100%; flex-direction: row; justify-content: center; align-items: flex-end; } #kunstfabriek button { margin: 0 16px 10vh; } }
 
 /* TODO: de precieze hoogte nog uitrekenen */
 /* =============================== INSTRUMENT SPECIFIC STYLES ==================================*/

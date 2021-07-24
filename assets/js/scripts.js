@@ -2,7 +2,7 @@
     function goBack() {
       window.history.back();
     }
-// headroom 
+// headroom
 if (document.documentElement.clientWidth < 1024) {
     // ZET HIER HET SCRIPT TUSSEN ALS JE WILT DAT HET PAS WERKT BIJ EEN SCREENWIDTH VAN MINDER DAN 1024px
 var myElement = document.getElementById("header");
@@ -12,11 +12,11 @@ var headroom  = new Headroom(myElement, {
         down : 4,
         up : 12
     },
-    offset: 
+    offset:
         200
 });
-// met volgende functie werkt headroom niet bij de landing page
-var el = document.getElementById('landing');
+// met volgende functie werkt headroom niet bij de kunstfabriek page
+var el = document.getElementById('kunstfabriek');
 if (el == null) {
     headroom.init();
 }

@@ -1,5 +1,5 @@
 ---
-title: landing
+title: kunstfabriek
 other_link: inschrijvingen
 layout: landing
 ---

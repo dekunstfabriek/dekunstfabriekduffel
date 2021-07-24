@@ -1,8 +1,8 @@
 
 /* ===============================
-    LANDING SPECIFIC STYLES
+    kunstfabriek SPECIFIC STYLES
 ==================================*/
-#landing {
+#kunstfabriek {
   height: 105vh;
     background-color: #000;
     overflow: hidden;
@@ -37,13 +37,13 @@ button.btn-blauw:hover  {
     background-color: var(--c-s1);
 }
 @media screen and (min-width: 1024px) {
-  #landing main {
+  #kunstfabriek main {
     background-size: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
   }
-  #landing button {
+  #kunstfabriek button {
     margin: 0 16px 10vh;
   }
 }
@@ -223,7 +223,7 @@ video {
     font-size: 1.5em;
     line-height: 1em;
   }
-  
+
   /* DIT IS MAAR WAT GEPROBEER, DIT MOET WEG
   ===========================================*/
   .muziek__wrap--lessen {
