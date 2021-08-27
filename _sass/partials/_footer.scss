@@ -24,14 +24,25 @@ footer {
   min-width: 30%;
 }
 .footer-contact {
-  margin-top: 5px;
+  margin-top: 9px;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+  .footer-contact {
+    margin-top: 24px;
+  }
 }
 .footer-contact p {
-  font-size: 16px;
-  border-top: 1px solid var(--c-1);
-  border-bottom: 1px solid var(--c-1);
+  font-size: 14px;
+  padding-left: 18px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  &.mail {
+    border-top: 1px solid var(--c-1);
+    border-bottom: 1px solid var(--c-1);
+  }
 }
 .footer-row {
   height: inherit;

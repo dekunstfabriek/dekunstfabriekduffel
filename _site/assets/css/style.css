@@ -209,9 +209,13 @@ footer { background-color: var(--c-s4); color: #fff; padding: 15px 0; }
 
 .footer-nav { min-width: 30%; }
 
-.footer-contact { margin-top: 5px; display: flex; justify-content: flex-end; }
+.footer-contact { margin-top: 9px; display: flex; justify-content: flex-end; flex-wrap: wrap; }
 
-.footer-contact p { font-size: 16px; border-top: 1px solid var(--c-1); border-bottom: 1px solid var(--c-1); }
+@media screen and (min-width: 1024px) { .footer-contact { margin-top: 24px; } }
+
+.footer-contact p { font-size: 14px; padding-left: 18px; margin-left: 20px; margin-bottom: 12px; }
+
+.footer-contact p.mail { border-top: 1px solid var(--c-1); border-bottom: 1px solid var(--c-1); }
 
 .footer-row { height: inherit; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; }
 
@@ -347,7 +351,7 @@ q:after { content: ""; }
 
 .nieuws li { border: 1px solid var(--c-1); border-radius: 5px; padding: 0 8px; }
 
-.nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; }
+.nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
 
 /* =============================== POSTS SPECIFIC STYLES ==================================*/
 #inschrijvingen .header { background-color: #000; }
@@ -458,5 +462,9 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 #beeldende-vorming main { min-height: 50vh; }
 
 #posts .header { background-color: var(--c-s4); }
+
+.nieuws ul { margin: 18px 0; }
+
+.nieuws ul li { margin: 14px 0 14px -40px; }
 
 /*# sourceMappingURL=style.css.map */
