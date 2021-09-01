@@ -93,7 +93,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
       <div class="bak__wrap row">
         <div class="muziek__item muziek__item--2">
          <a href="/">
-          <img src="/assets/img/strijkers3.jpg" alt="beeldende kunsten">
+          <img src="/assets/img/Beeldende-vorming-klein-web.jpeg" alt="beeldende kunsten">
          </a>
           <figcaption class="upcase">beeldende vorming</figcaption>
         </div>
