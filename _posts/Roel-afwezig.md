@@ -1,9 +1,5 @@
 ---
-title: Roel Afwezig
-date: 2021-10-20 00:00:00 +02:00
-<<<<<<< HEAD
-layout: post
-author: luc
+title: 2021 10 20 Roel Afwezig
 ---
 
 Roel kan deze week geen les geven. Dus, van 20-10 tot 22-10. 
