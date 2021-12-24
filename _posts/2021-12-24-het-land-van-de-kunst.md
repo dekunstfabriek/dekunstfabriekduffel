@@ -7,7 +7,7 @@ author: Charline
 
 Onze cursisten beeldende vorming nodigen je graag uit in 'het land van de kunst' —> een tentoonstelling met werk van alle groepen beeldende vorming. Je kan hier de leukste kunstwerken bezichtigen van onze jongste kunstenaars tot en met prachtige creaties vanuit ons Atelier Volwassenen!
 
-<img src="/assets/img/affiche_tentoonstelling-Small.jpeg" alt="Affiche van -Het Land van de Kunst-" style="width: 100%; max-width: 640px" title="Affiche van -Het Land van de Kunst-">
+<img src="/assets/img/affiche_tentoonstelling-Small.jpeg" alt="Affiche van -Het Land van de Kunst-" style="width: 100%; max-width: 85vw" title="Affiche van -Het Land van de Kunst-">
 
 #### Waar bevindt dit "Land van de Kunst" zich?
 
