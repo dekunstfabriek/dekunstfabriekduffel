@@ -1,6 +1,6 @@
 ---
 title: Tentoonstelling - het land van de kunst -
-date: 2021-12-24 00:00:00 +02:00
+date: 2021-12-23 23:00:00 +01:00
 layout: post
 author: Charline
 ---
