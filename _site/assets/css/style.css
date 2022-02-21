@@ -461,6 +461,11 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 #beeldende-vorming main { min-height: 50vh; }
 
+/* =============================== OPTREDEN ==================================*/
+#optreden .header { background-color: #000; }
+
+#optreden main { background-color: #000; color: #fff; min-height: 60vh; }
+
 #posts .header { background-color: var(--c-s4); }
 
 .nieuws ul { margin: 18px 0; }
