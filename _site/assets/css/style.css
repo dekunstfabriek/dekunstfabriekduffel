@@ -82,6 +82,10 @@ footer { min-height: 120px; }
 ========================= */
 .laatste-nieuws { display: flex; justify-content: space-between; align-items: stretch; margin-top: 22px; margin-bottom: 22px; border: 1px solid var(--c-1); border-radius: 8px; flex-wrap: wrap; }
 
+.nieuws p, .nieuws a { font-size: .8em; }
+
+@media screen and (min-width: 1024px) { .nieuws p, .nieuws a { font-size: 1em; } }
+
 .laatste-nieuws__item { width: 100%; padding: 0 2% 18px; background-color: rgba(97, 175, 171, 0.13); font-size: .8em; }
 
 .laatste-nieuws__item:first-of-type { margin-right: 0px; }
@@ -477,6 +481,12 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 .optreden__geel { background-color: yellow; }
 
 .optreden__img img { max-width: 100%; }
+
+.optreden__content { max-width: 100%; }
+
+.optreden p, .optreden a { font-size: .8em; }
+
+@media screen and (min-width: 1024px) { .optreden p, .optreden a { font-size: 1em; } }
 
 #posts .header { background-color: var(--c-s4); }
 
