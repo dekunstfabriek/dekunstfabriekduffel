@@ -584,6 +584,11 @@ img.blackback {
 /* ===============================
     OPTREDEN
 ==================================*/
+#roze {
+  padding: 3px;
+  background-color: var(--c-4);
+  color: #fff;
+}
 #optreden .header {
     background-color: var(--c-s4);
 }
@@ -591,4 +596,26 @@ img.blackback {
   background-color: #fff;
   color: #333;
   min-height: 60vh;
+}
+.optreden {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (min-width: 1024px) {
+  .optreden {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+.optreden__rood {
+  background-color: red;
+}
+.optreden__geel {
+  background-color: yellow;
+}
+.optreden__img img {
+  max-width: 100%;
 }

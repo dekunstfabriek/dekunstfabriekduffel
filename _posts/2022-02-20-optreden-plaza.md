@@ -5,10 +5,33 @@ layout: post
 author: Luc
 ---
 
-Optredens van onze samenspelgroepen en bands.
+<p>Optredens van onze bands en samenspelgroepen.</p>
 
-<img src="/assets/img/a-night-at-cinema-plaza.jpg" alt="Affiche van het concert in cinema Plaza" style="width: 100%; max-width: 85vw" title="Affiche van het concert in cinema Plaza">
+<br>
 
+<div>
+  <div class="optreden">
+    <div class="optreden__img">
+      <img src="/assets/img/a-night-at-cinema-plaza.jpg" alt="">
+    </div>
+    <div class="optreden__content">
+      <p>De Kunstfabriek stelt voor:</p>
+      <hr>
+      <br>
+      <h2>A night at cinema Plaza</h2>
+      <br>
+      <hr>
+      <p>Zaterdag 12 maart 19u30</p>
+      <p>deuren 19u</p>
+      <p>Cinema Plaza, Handelsstraat 8, Duffel</p>
+      <hr>
+      <p>Kaarten: &#128; 8 / &#128; 5 (-18 jaar)</p>
+      <p>Reserveren:</p>
+      <a href="mailto:vriendenvandekunstfabriek@gmail.com">vriendenvandekunstfabriek@gmail.com</a>
+      <p>015/31 81 26</p>
+    </div>
+  </div>
+</div>
 
 
 Tot dan!

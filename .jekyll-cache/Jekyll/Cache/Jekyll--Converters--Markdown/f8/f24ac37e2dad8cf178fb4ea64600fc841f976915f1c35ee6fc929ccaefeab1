@@ -1,0 +1,32 @@
+I"Æ<p>Optredens van onze samenspelgroepen en bands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="optreden"&gt;
+  &lt;div class="optreden__img"&gt;
+    &lt;img src="/assets/img/a-night-at-cinema-plaza.jpg" alt=""&gt;
+  &lt;/div&gt;
+  &lt;div class="optreden__content"&gt;
+    &lt;p&gt;De Kunstfabriek stelt voor:&lt;/p&gt;
+    &lt;br&gt;
+    &lt;hr&gt;
+    &lt;br&gt;
+    &lt;h2&gt;A night at cinema Plaza&lt;/h2&gt;
+    &lt;br&gt;
+    &lt;hr&gt;
+    &lt;br&gt;
+    &lt;p&gt;Zaterdag 12 maart 19u30&lt;/p&gt;
+    &lt;p&gt;deuren 19u&lt;/p&gt;
+    &lt;p&gt;Cinema Plaza, Handelsstraat 8, Duffel&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;Kaarten: &amp;#128; 8 / &amp;#128; 5 (-18 jaar)&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;Reserveren:&lt;/p&gt;
+    &lt;a href="mailto:vriendenvandekunstfabriek@gmail.com"&gt;vriendenvandekunstfabriek@gmail.com&lt;/a&gt;
+    &lt;p&gt;015/31 81 26&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p><img src="/assets/img/a-night-at-cinema-plaza.jpg" alt="Affiche van het concert in cinema Plaza" style="width: 100%; max-width: 85vw" title="Affiche van het concert in cinema Plaza" /></p>
+
+<p>Tot dan!</p>
+:ET
