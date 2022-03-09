@@ -62,7 +62,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
     <div class="muziek">
       <div class="muziek__wrap row">
         <div class="muziek__item muziek__item--1">
-         <a href="/">
+         <a href="/home">
           <img src="/assets/img/strijkers3.jpg" alt="optreden door vioolklas in de Plaza in 2020">
          </a>
           <figcaption class="upcase">muziek</figcaption>
@@ -92,7 +92,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
     <div class="bak">
       <div class="bak__wrap row">
         <div class="muziek__item muziek__item--2">
-         <a href="/">
+         <a href="/home">
           <img src="/assets/img/Beeldende-vorming-klein-web.jpeg" alt="beeldende kunsten">
          </a>
           <figcaption class="upcase">beeldende vorming</figcaption>
@@ -114,7 +114,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
     <div class="talen">
       <div class="talen__wrap row">
         <div class="muziek__item muziek__item--1">
-         <a href="/">
+         <a href="/home">
           <img src="/assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo">
          </a>
           <figcaption class="upcase">talen</figcaption>
