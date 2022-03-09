@@ -434,6 +434,8 @@ th.no-border-top { border-top: none; }
 
 .ensemble__head { margin-top: 15px; }
 
+.ensemble__head img { margin-bottom: 1.3em; }
+
 .ensemble img { width: 100%; }
 
 .ensemble__wrap { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 35px; margin-bottom: 35px; }
