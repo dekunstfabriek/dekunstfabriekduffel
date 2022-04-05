@@ -1,13 +1,13 @@
 ---
 title: kunstfabriek
-other_link: optreden
+other_link: kunstroute
 layout: landing
 ---
 
   <main id="top">
     <!-- foto -->
       <div></div>
-      <button class="btn-roze" role="button"><a href="/{{ page.other_link }}">Optreden 12 maart</a></button>
+      <button class="btn-roze" role="button"><a href="/{{ page.other_link }}">Kunstroute</a></button>
       <!-- LINK NOG VERANDEREN !!!!!!!!!!!!
       ======================================= -->
       <button class="btn-blauw" role="button"><a href="/home">Algemene info</a></button>
