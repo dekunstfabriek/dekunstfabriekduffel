@@ -1,6 +1,6 @@
 ---
 title: Kunstroute 2022
-date: 2022-04-02 23:00:00 +01:00
+date: 2022-04-03 00:00:00 +02:00
 layout: post
 author: Luc
 ---
