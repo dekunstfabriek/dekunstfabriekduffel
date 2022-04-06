@@ -1,0 +1,47 @@
+I"<main>
+    <div class="row">
+       <br />
+        <h2>Beeldende Vorming</h2>
+    </div>
+    <br />
+    <div class="row">
+      <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt
+        kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten
+        via verschillende technieken en met allerlei materialen. Voor volwassenen wordt
+        de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.</p>
+    </div>
+    <br />
+    <div class="row">
+      <h5>Een paar van onze creaties van dit jaar</h5>
+      <br />
+    </div>
+    <div class="row">
+      <div class="gallery-bv">
+        <figure>
+          <img src="assets/img/Beeldende-vorming-klein-web.jpeg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-1.jpg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-4.jpg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-3.jpg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-2.jpg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-5.jpg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%" />
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+      </div>
+    </div>
+</main>
+:ET

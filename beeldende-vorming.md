@@ -6,7 +6,56 @@ layout: default
 <main>
     <div class="row">
        <br>
-        <h2>Deze pagina is nog in opbouw</h2>
+        <h2>Beeldende Vorming</h2>
+    </div>
+    <br>
+    <div class="row">
+      <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt
+        kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten
+        via verschillende technieken en met allerlei materialen. Voor volwassenen wordt
+        de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.</p>
+    </div>
+    <br>
+    <div class="row">
+      <h5>Een kleine greep uit onze creaties van dit jaar</h5>
+      <br>
+    </div>
+    <div class="row">
+      <div class="gallery-bv">
+        <figure>
+          <img src="assets/img/Beeldende-vorming-klein-web.jpeg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%">
+          <figcaption>Samenwerken aan één schilderij</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-1.jpg" alt="Houten kunstwerkjes" style="width:100%">
+          <figcaption>Insecten op hout</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-4.jpg" alt="Fantastic Beasts" style="width:100%">
+          <figcaption>Fantastic Beasts</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-3.jpg" alt="Waterverf" style="width:100%">
+          <figcaption>Waterverf</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-2.jpg" alt="Fantasie beelden" style="width:100%">
+          <figcaption>Fantasie beelden</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/BV-5.jpg" alt="Inspiratie uit het Oosten" style="width:100%">
+          <figcaption>Inspiratie uit het Oosten</figcaption>
+        </figure>
+      </div>
+      <br>
+      <br>
+    </div>
+    <div class="row">
+      <h5>Heb je er ook zin in? Schrijf je dan in voor het volgende schooljaar</h5>
+      <br>
+      <p>Er zijn twee groepen voor de lagere schoolkinderen, één voor de +12-jarigen en een volwassenengroep.</p>
+      <p></p>
+      <br>
+      <br>
     </div>
 </main>
-
