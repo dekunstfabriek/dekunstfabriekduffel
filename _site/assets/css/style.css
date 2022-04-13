@@ -499,10 +499,12 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 @media screen and (min-width: 1024px) { .gallery-bv { grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; } }
 
+.gallery-bv img { max-width: 100%; }
+
 /* =============================== Kunstlab ==================================*/
 #kunstlab .header { background-color: var(--c-1); margin-bottom: 2.5em; }
 
-#kunstlab img { width: 100%; }
+#kunstlab img { max-width: 100%; }
 
 #posts .header { background-color: var(--c-s4); }
 

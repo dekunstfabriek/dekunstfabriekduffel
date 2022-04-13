@@ -654,6 +654,9 @@ img.blackback {
     grid-gap: 1em;
   }
 }
+.gallery-bv img {
+  max-width: 100%;
+}
 /* ===============================
     Kunstlab
 ==================================*/
@@ -662,5 +665,5 @@ img.blackback {
     margin-bottom: 2.5em;
 }
 #kunstlab img {
-  width: 100%;
+  max-width: 100%;
 }
