@@ -360,7 +360,7 @@ q:after { content: ""; }
 .nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
 
 /* =============================== POSTS SPECIFIC STYLES ==================================*/
-#inschrijvingen .header { background-color: #000; }
+#inschrijvingen .header, #nieuwe-cursussen .header { background-color: #000; }
 
 .inschrijvingen { margin: 1em 0; }
 

@@ -1,13 +1,7 @@
----
-title: kunstfabriek
-other_link: nieuwe-cursussen
-layout: landing
----
-
-  <main id="top">
+I"<main id="top">
     <!-- foto -->
       <div></div>
-      <button class="btn-roze" role="button"><a href="/{{ page.other_link }}">Nieuwe Cursussen</a></button>
+      <button class="btn-roze" role="button"><a href="/nieuwe-cursussen">Nieuwe Cursussen</a></button>
       <!-- LINK NOG VERANDEREN !!!!!!!!!!!!
       ======================================= -->
       <button class="btn-blauw" role="button"><a href="/home">Algemene info</a></button>
@@ -15,5 +9,6 @@ layout: landing
   </main>
 
 <!-- reserve link die je kan copieren om de button (btn-roze) hierboven te vervangen.
-<button class="btn-roze" role="button"><a href="/{{ page.other_link }}">{{ page.other_link }}</a></button>
+<button class="btn-roze" role="button"><a href="/nieuwe-cursussen">nieuwe-cursussen</a></button>
  -->
+:ET
