@@ -360,7 +360,7 @@ q:after { content: ""; }
 .nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
 
 /* =============================== POSTS SPECIFIC STYLES ==================================*/
-#inschrijvingen .header, #nieuwe-cursussen .header { background-color: #000; }
+#inschrijvingen .header { background-color: #000; }
 
 .inschrijvingen { margin: 1em 0; }
 
@@ -505,6 +505,13 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 #kunstlab .header { background-color: var(--c-1); margin-bottom: 2.5em; }
 
 #kunstlab img { max-width: 100%; }
+
+/* =============================== Nieuwe cursussen ==================================*/
+#nieuwe-cursussen .header { background-color: var(--c-1); }
+
+.nc h2 { color: var(--c-1); }
+
+.nc p { margin-top: 18px; margin-bottom: 18px; }
 
 #posts .header { background-color: var(--c-s4); }
 

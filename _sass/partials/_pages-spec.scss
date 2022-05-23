@@ -325,8 +325,7 @@ q:after {
     POSTS SPECIFIC STYLES
 ==================================*/
 
-#inschrijvingen .header,
-#nieuwe-cursussen .header {
+#inschrijvingen .header {
   background-color: #000;
 }
 .inschrijvingen {
@@ -667,4 +666,19 @@ img.blackback {
 }
 #kunstlab img {
   max-width: 100%;
+}
+/* ===============================
+    Nieuwe cursussen
+==================================*/
+#nieuwe-cursussen .header {
+  background-color: var(--c-1);
+}
+.nc {
+  h2 {
+    color: var(--c-1);
+  }
+  p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
 }
