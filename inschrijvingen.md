@@ -152,8 +152,8 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
           </tr>
           <tr>
             <td>Praatcafé Talen <br>
-                Muziekinitiatie <br>
-                Notenleer <br>
+                Kunstlab <br>
+                Muzieklab <br>
                 Bandcoaching <br>
                 Groot samenspel/samenzang</td>
             <td>&euro; 70</td>
@@ -213,8 +213,8 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
               </tr>
               <tr>
                 <td>1ste jaar -12 <strong>a</strong></td>
-                <td>Woensdag</td>
-                <td>16u00-17u30</td>
+                <td>Maandag</td>
+                <td>16u15-17u45</td>
               </tr>
               <tr>
                 <td>1ste jaar -12 <strong>b</strong></td>
@@ -232,7 +232,12 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
                 <td>20u30-22u00</td>
               </tr>
               <tr>
-                <td>2de jaar -12</td>
+                <td>2de jaar -12 <strong>a</strong></td>
+                <td>Maandag</td>
+                <td>17u45-19u15</td>
+              </tr>
+              <tr>
+                <td>2de jaar -12 <strong>b</strong></td>
                 <td>Donderdag</td>
                 <td>17u30-19u00</td>
               </tr>
@@ -280,17 +285,17 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
             </tr>
             <tr>
               <td>De Bende</td>
-              <td>Woensdag</td>
-              <td>16u30-17u30</td>
+              <td>Dinsdag</td>
+              <td>17u00-18u00</td>
             </tr>
             <tr>
               <td>The Gang</td>
-              <td>Woensdag</td>
+              <td>Dinsdag</td>
               <td>18u30-19u30</td>
             </tr>
             <tr>
               <td>POPkoor'n</td>
-              <td>Woensdag</td>
+              <td>Dinsdag</td>
               <td>20u00-21u00</td>
             </tr>
             <!-- <tr>
@@ -356,11 +361,6 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
                 <td>4de jaar</td>
                 <td>Woensdag</td>
                 <td>19u15 - 20u45</td>
-              </tr>
-              <tr>
-                <td>4de jaar</td>
-                <td>Maandag</td>
-                <td>20u45</td>
               </tr>
               <tr>
                 <th colspan="3" class="no-border-top">Italiaans</th>
