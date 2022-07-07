@@ -228,7 +228,7 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
               </tr>
               <tr>
                 <td>1ste jaar (+17j)</td>
-                <td>Woensdag</td>
+                <td>Donderdag</td>
                 <td>20u30-22u00</td>
               </tr>
               <tr>
@@ -243,7 +243,7 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
               </tr>
               <tr>
                 <td>2de jaar +12</td>
-                <td>Donderdag</td>
+                <td>Woensdag</td>
                 <td>20u30-22u00</td>
               </tr>
               <tr>
