@@ -1,6 +1,6 @@
 ---
 title: open lesweek 8/09 - 14/09
-date: 2022-04-03 00:00:00 +02:00
+date: 2022-08-20 00:00:00 +02:00
 layout: post
 author: Luc
 ---
