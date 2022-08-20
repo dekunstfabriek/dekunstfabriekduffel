@@ -23,7 +23,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
         <div class="laatste-nieuws__item">
           <h2>Laatste Nieuws</h2>
           <!-- <small>laatste nieuws items... <br><a href="#">meer...</a></small> -->
-            {% for post in site.posts limit: 1 %}
+            {% for post in site.posts limit: 2 %}
                <div class="nieuws__title-wrap">
                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                     <p>gepost op: {{ post.date | date_to_string }}</p>
