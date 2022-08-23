@@ -114,7 +114,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
     <div class="talen">
       <div class="talen__wrap row">
         <div class="muziek__item muziek__item--1">
-         <a href="/home">
+         <a href="/talen">
           <img src="/assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo">
          </a>
           <figcaption class="upcase">talen</figcaption>

@@ -504,7 +504,7 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 /* =============================== Kunstlab ==================================*/
 #kunstlab .header { background-color: var(--c-1); margin-bottom: 2.5em; }
 
-#kunstlab img { max-width: 100%; }
+.kunstlab img { max-width: 100%; }
 
 /* =============================== Nieuwe cursussen ==================================*/
 #nieuwe-cursussen .header { background-color: var(--c-1); }
@@ -523,6 +523,15 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 .open-lesweek p { max-width: 900px; }
 
 .open-lesweek img { width: 100%; max-width: 700px; }
+
+/* =============================== Talen ==================================*/
+#talen .header { background-color: var(--c-1); }
+
+#talen h2 { font-size: 2.4em; margin-top: .7em; }
+
+.talen-page { margin-top: 20px; }
+
+.talen-page .half { margin-top: .5em; margin-bottom: .5em; padding-left: 18px; }
 
 #posts .header { background-color: var(--c-s4); }
 
