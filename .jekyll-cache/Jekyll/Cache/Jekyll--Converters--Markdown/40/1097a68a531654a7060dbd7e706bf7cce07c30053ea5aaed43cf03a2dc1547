@@ -1,4 +1,4 @@
-I"L<main id="top">
+I"×<main id="top">
 
     <div class="laatste-nieuws row">
         <div class="laatste-nieuws__item">
@@ -10,13 +10,6 @@
                     <p>gepost op: 20 Aug 2022</p>
                </div>
                 <p><strong>Alle lessen starten vanaf de eerste dag van september!</strong></p>
-
-            
-               <div class="nieuws__title-wrap">
-                   <h4><a href="/laatstenieuws/2022/08/20/open-lesweek.html">open lesweek 8/09 - 14/09</a></h4>
-                    <p>gepost op: 20 Aug 2022</p>
-               </div>
-                <p><strong>Gedurende een week kan iedereen eens komen proeven van de groeps- en klassikale lessen.</strong></p>
 
             
             <a href="/posts">meer Laatste Nieuws items ...</a>
@@ -118,7 +111,7 @@
     <div class="talen">
       <div class="talen__wrap row">
         <div class="muziek__item muziek__item--1">
-         <a href="/home">
+         <a href="/talen">
           <img src="/assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo" />
          </a>
           <figcaption class="upcase">talen</figcaption>
