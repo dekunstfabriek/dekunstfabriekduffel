@@ -1,4 +1,4 @@
-I"A<main id="top">
+I"I9<main id="top">
     <section class="inschrijvingen">
       <div class="row">
         <br />
@@ -206,8 +206,8 @@
               </tr>
               <tr>
                 <td>1ste jaar -12 <strong>a</strong></td>
-                <td>Maandag</td>
-                <td>16u15-17u45</td>
+                <td>Woensdag</td>
+                <td>14u30-16u00</td>
               </tr>
               <tr>
                 <td>1ste jaar -12 <strong>b</strong></td>
@@ -226,8 +226,8 @@
               </tr>
               <tr>
                 <td>2de jaar -12 <strong>a</strong></td>
-                <td>Maandag</td>
-                <td>17u45-19u15</td>
+                <td>Woensdag</td>
+                <td>16u00-17u30</td>
               </tr>
               <tr>
                 <td>2de jaar -12 <strong>b</strong></td>
@@ -367,89 +367,7 @@
         </div>
 
       </div><!-- lesuren__grid -->
-      <div class="row">
-        <h2>Proeflessen</h2>
-        <br />
-        <table>
-          <tr>
-            <td>Samenspel Atelier</td>
-            <td>Zaterdag</td>
-            <td>4 juni</td>
-            <td>10u30 -</td>
-            <td>12u00</td>
-          </tr>
-          <tr>
-            <td>Songwriting</td>
-            <td>Zaterdag</td>
-            <td>4 juni</td>
-            <td>Op afspraak</td>
-            <td>14u - 16u</td>
-          </tr>
-          <tr>
-            <td>Improvisatie</td>
-            <td>Donderdag</td>
-            <td>2 juni</td>
-            <td>18u15 -</td>
-            <td>18u45</td>
-          </tr>
-          <tr>
-            <td>Muziek maken met computer</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>16u30 -</td>
-            <td>17u00</td>
-          </tr>
-          <tr>
-            <td>Kunstlab kleuters</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>13u30 -</td>
-            <td>14u30</td>
-          </tr>
-          <tr>
-            <td>Kunstlab 1ste lrj.</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>14u45 -</td>
-            <td>15u45</td>
-          </tr>
-          <tr>
-            <td>Muzieklab 1</td>
-            <td>Zaterdag</td>
-            <td>4 juni</td>
-            <td>13u45 -</td>
-            <td>15u15</td>
-          </tr>
-          <tr>
-            <td>Samenspel Folk</td>
-            <td>Donderdag</td>
-            <td>2 juni</td>
-            <td>20u00 -</td>
-            <td>21u00</td>
-          </tr>
-          <tr>
-            <td>bende</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>16u30 - </td>
-            <td>17u30</td>
-          </tr>
-          <tr>
-            <td>Gang</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>18u30 -</td>
-            <td>19u30</td>
-          </tr>
-          <tr>
-            <td>POPkoorn'</td>
-            <td>Woensdag</td>
-            <td>1 juni</td>
-            <td>20u00 -</td>
-            <td>21u00</td>
-          </tr>
-        </table>
-      </div>
+
       <div class="row to-top">
         <a href="#top">Back to top &#8593;</a>
       </div>
