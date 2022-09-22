@@ -335,12 +335,14 @@ q:after {
   padding: 10px 0;
   column-count: 1;
 }
+/*
 @media screen and (min-width: 1024px) {
   .inschrijvingen article {
     column-count: 2;
     column-gap: 12px;
   }
 }
+*/
 #inschrijvingen p {
   font-size: .9em;
   padding-bottom: .28em;
