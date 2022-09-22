@@ -11,15 +11,15 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
         <br>
         <h2>INSCHRIJVINGEN</h2>
         <article>
-          <p>Je bent duidelijk geinteresseerd in de lessen van de Kunstfabriek anders had je deze pagina niet gevonden.</p>
-          <p>Als je graag volgend schooljaar lessen wil volgen in de Kunstfabriek kan je je inschrijven vanaf <strong><u>7 juli</u></strong>.</p>
-          <p>Wil je eerst nog wat informatie over de lessen, wanneer ze gegeven worden of hoeveel ze kosten, dan kan je eerst nog wat rondkijken op deze website.</p>
-          <p>Wil je nog meer info, of heb je specifieke vragen dan kan je die stellen aan dekunstfabriek@duffel.be of telefonisch aan de dienst “Vrije Tijd” van de gemeente Duffel 015 307 250.</p>
+          <p>De inschrijvingen voor het schooljaar ’22-’23 zijn afgesloten.</p>
+          <p>Als je graag volgend schooljaar (’23-’24) les wil volgen kan je mailen naar <a href="mailto:vrijetijd@duffel.be" target="blank">vrijetijd@duffel.be</a>.</p>
+          <p>Je mailadres wordt dan toegevoegd aan de mailinglijst van geïnteresseerde cursisten.</p>
+          <p>Zo krijg je eind mei/begin juni automatisch informatie doorgemaild over de inschrijvingen voor het volgende schooljaar.</p>
         </article>
 
       </div>
     </section><!-- inschrijvingen -->
-
+<!-- 
     <section class="inschrijvingen-hoe">
       <div class="row">
         <h2>Hoe gaat dit in zijn werk?</h2>
@@ -378,5 +378,8 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
       <div class="row to-top">
         <a href="#top">Back to top &#8593;</a>
       </div>
+  
     </section>
+    
+     -->
   </main>
