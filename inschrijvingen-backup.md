@@ -5,6 +5,15 @@ description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aa
   de Kunstfabriek starten op 7 juli 2021.
 ---
 
+<!--
+=========================================================
+=========================================================
+pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
+=========================================================
+=========================================================
+op lijn 339 column count un-commenten
+-->
+
   <main id="top">
     <section class="inschrijvingen">
       <div class="row">
