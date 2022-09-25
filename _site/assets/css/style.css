@@ -366,8 +366,7 @@ q:after { content: ""; }
 
 .inschrijvingen article { padding: 10px 0; column-count: 1; }
 
-@media screen and (min-width: 1024px) { .inschrijvingen article { column-count: 2; column-gap: 12px; } }
-
+/* @media screen and (min-width: 1024px) { .inschrijvingen article { column-count: 2; column-gap: 12px; } } */
 #inschrijvingen p { font-size: .9em; padding-bottom: .28em; }
 
 #inschrijvingen .header p { font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1100 - 375))); }
