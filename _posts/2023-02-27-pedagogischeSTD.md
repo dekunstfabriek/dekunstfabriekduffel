@@ -1,6 +1,6 @@
 ---
 title: Pedagogische Studiedag 2023
-date: 2023-02-28 00:00:00 +02:00
+date: 2023-02-27 23:00:00 +01:00
 layout: post
 author: Luc
 ---
