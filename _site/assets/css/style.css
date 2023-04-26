@@ -532,6 +532,13 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 .talen-page .half { margin-top: .5em; margin-bottom: .5em; padding-left: 18px; }
 
+/* =============================== Festivaldag op homepage ==================================*/
+.festival__wrap { background-color: var(--c-4); color: #ffffff; padding-bottom: 1em; margin-bottom: 1em; }
+
+.festival { font-size: 4em; padding: .4em; }
+
+.festival__item { margin: 1em; }
+
 #posts .header { background-color: var(--c-s4); }
 
 .nieuws ul { margin: 18px 0; }

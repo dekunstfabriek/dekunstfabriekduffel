@@ -724,3 +724,20 @@ img.blackback {
     padding-left: 18px;
   }
 }
+
+/* ===============================
+    Festivaldag op homepage
+==================================*/
+.festival__wrap {
+  background-color: var(--c-4);
+  color: #ffffff;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.festival {
+  font-size: 4em;
+  padding: .4em;
+}
+.festival__item {
+  margin: 1em;
+}
