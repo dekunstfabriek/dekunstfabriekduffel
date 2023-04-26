@@ -1,11 +1,4 @@
----
-title: inschrijvingen
-layout: default
-description: Inschrijvingen voor de lessen muziek, beeldende kunsten en spaans aan
-  de Kunstfabriek starten op 7 juli 2021.
----
-
-<!--
+I"�:<!--
 =========================================================
 =========================================================
 pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
@@ -14,10 +7,10 @@ pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
 op lijn 339 column count un-commenten
 -->
 
-  <main id="top">
+<main id="top">
     <section class="inschrijvingen">
       <div class="row">
-        <br>
+        <br />
         <h2>INSCHRIJVINGEN</h2>
         <article>
           <p>Je bent duidelijk geinteresseerd in de lessen van de Kunstfabriek anders had je deze pagina niet gevonden.</p>
@@ -34,14 +27,7 @@ op lijn 339 column count un-commenten
     <section class="inschrijvingen-hoe">
       <div class="row">
         <h2>Hoe gaat dit in zijn werk?</h2>
-        <p>Afhankelijk van de te volgen lessen zijn er 2 manieren om in te schrijven:</p>
-        <ul>
-          <li>- Rechtstreeks via de <strong>WEBSHOP</strong></li>
-          <li>- Via contact met de <strong>DIENST VRIJE TIJD</strong></li>
-        </ul>
-
-        <h2 class="tweesporen-heading">via WEBSHOP</h2>
-
+        <p>Er zijn drie verschillende procedures om in te schrijven afhankelijk van het soort lessen dat je wil volgen:</p>
         <div class="klassik grid">
           <article>
             <h3>Klassikale lessen</h3>
@@ -55,7 +41,7 @@ op lijn 339 column count un-commenten
             <p>Om in te schrijven voor deze lessen kan je rechtstreeks naar de webshop van de gemeente Duffel surfen:</p>
             <a href="https://webshopduffel.recreatex.be" target="blank">webshopduffel.recreatex.be</a>
             <p><strong>INSCHRIJVEN TOT 22 SEPTEMBER</strong></p>
-            <br>
+            <br />
             <p>Hou volgende gegevens bij de hand:</p>
             <p>Rijksregisternummer (vind je op je identiteitsbewijs) - Telefoonnummer - Email-adres</p>
             <a href="#lesuren">Lesuren klassikale lessen &#8628;</a>
@@ -73,14 +59,11 @@ op lijn 339 column count un-commenten
             </div>
           </aside>
         </div><!-- grid -->
-
-        <h2 class="tweesporen-heading">via DIENST VRIJE TIJD</h2>
-
         <div class="indiv grid">
           <article>
-            <h3>Instrumenten & song writing</h3>
+            <h3>Instrumenten &amp; song writing</h3>
             <p>Er zijn slechts een beperkt aantal plaatsen vrij, afhankelijk van het aantal leerlingen dat vorig schooljaar gestopt is met de lessen. Wees er dus op tijd bij!</p>
-            <br>
+            <br />
             <p>Voor deze lessen neem je eerst contact op met de dienst “Vrije Tijd” of via dekunstfabriek@duffel.be</p>
             <p>Zij weten je te vertellen of er nog plaats is, waarna ze met jou een uur en een dag afspreken waarop de les zal plaats vinden.</p>
             <p>Je geeft hen alle nodige gegevens (zie klassikale lessen)</p>
@@ -167,17 +150,17 @@ op lijn 339 column count un-commenten
             <td>+18</td>
           </tr>
           <tr>
-            <td>Talen <br>Beeldende Vorming</td>
+            <td>Talen <br />Beeldende Vorming</td>
             <td>&euro; 80</td>
             <td>&euro; 105</td>
             <td>&euro; 128</td>
             <td>&euro; 168</td>
           </tr>
           <tr>
-            <td>Praatcafé Talen <br>
-                Kunstlab <br>
-                Muzieklab <br>
-                Bandcoaching <br>
+            <td>Praatcafé Talen <br />
+                Kunstlab <br />
+                Muzieklab <br />
+                Bandcoaching <br />
                 Groot samenspel/samenzang</td>
             <td>&euro; 70</td>
             <td>&euro; 95</td>
@@ -206,14 +189,14 @@ op lijn 339 column count un-commenten
             <p><strong>Gespreide betaling</strong> is mogelijk.</p>
             <p><strong>Korting </strong>vanaf 2de kind van het gezin.</p>
             <p><strong>"Vrije Tijd voor iedereen"</strong>-korting, zie voorwaarden op <a href="https://www.duffel.be/vrijetijdvooriedereen" target="_blank" rel="noreferrer">www.duffel.be/vrijetijdvooriedereen</a></p>
-            <br>
-            <br>
+            <br />
+            <br />
         </div>
     </section>
     <section class="lesuren" id="lesuren">
       <div class="row">
         <h2>UREN klassikale lessen</h2>
-        <br>
+        <br />
       </div>
       <div class="lesuren__grid row">
         <div class="lesuren__item">
@@ -403,3 +386,4 @@ op lijn 339 column count un-commenten
       </div>
     </section>
   </main>
+:ET
