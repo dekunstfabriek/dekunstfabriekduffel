@@ -1,7 +1,7 @@
 ---
 title: inschrijvingen
 layout: default
-description: Inschrijvingen voor de lessen muziek, beeldende kunsten en talen aan
+description: Inschrijvingen voor de lessen muziek, beeldende kunsten en spaans aan
   de Kunstfabriek starten op 7 juli 2021.
 ---
 
