@@ -735,8 +735,13 @@ img.blackback {
   margin-bottom: 1em;
 }
 .festival {
-  font-size: 4em;
+  font-size: 2.5em;
   padding: .4em;
+}
+@media screen and (min-width: 768px) {
+  .festival {
+    font-size: 4em;
+  }
 }
 .festival__item {
   margin: 1em;

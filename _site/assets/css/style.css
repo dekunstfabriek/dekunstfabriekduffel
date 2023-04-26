@@ -535,7 +535,9 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 /* =============================== Festivaldag op homepage ==================================*/
 .festival__wrap { background-color: var(--c-4); color: #ffffff; padding-bottom: 1em; margin-bottom: 1em; }
 
-.festival { font-size: 4em; padding: .4em; }
+.festival { font-size: 2.5em; padding: .4em; }
+
+@media screen and (min-width: 768px) { .festival { font-size: 4em; } }
 
 .festival__item { margin: 1em; }
 
