@@ -71,7 +71,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
           <p>Proef van een sfeervolle namiddag met beeld, taal en muziek.</p>
         </div><!-- festival__item -->
         <div class="festival__item">
-          <h3>Instrumentenvoorstelling</h3>
+          <h3>Instrumenten<wbr>voorstelling</h3>
           <p>Bespeel verschillende instrumenten en maak een praatje met de leerkrachten.</p>
           <p>donderdag 11 mei (17.30 - 18.30 u.) Sint-Martinuskerk, Kerkstraat 31</p>
         </div><!-- festival__item -->
