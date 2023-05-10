@@ -68,6 +68,8 @@ footer { min-height: 120px; }
 
 .p-small { font-size: .65em; }
 
+.line-through { text-decoration: line-through; }
+
 .inspring { padding-left: 1em; }
 
 .blue { color: var(--c-1); }
