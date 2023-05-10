@@ -747,6 +747,22 @@ img.blackback {
   margin: 1em;
 }
 /* ===============================
+    Vacature
+==================================*/
+.vacature {
+  color: var(--c-4);
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  &__head h2 {
+    font-size: 2.1em;
+    line-height: .8em;
+    padding: 10px;
+  }
+  &__post p {
+    padding: 10px;
+  }
+}
+/* ===============================
     inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen)
 ==================================*/
 .tweesporen-heading {

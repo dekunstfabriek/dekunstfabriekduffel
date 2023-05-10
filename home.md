@@ -57,27 +57,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
         </div>
     </div> <!-- laatste-nieuws -->
 
-    <div class="row festival__wrap">
-      <h2 class="festival">Festivaldag</h2>
-      <div class="festival__item--wrap">
-        <div class="festival__item">
-          <h3>Concertavond</h3>
-          <p>vrijdag 5 mei (19.30 - 21 u.) Mijlstraatkerk</p>
-          <p>Laat je onderdompelen in akoestische muziek met "Sterk Onversterkt".</p>
-        </div><!-- festival__item -->
-        <div class="festival__item">
-          <h3>Festivaldag</h3>
-          <p>zaterdag 6 mei (14 - 18 u.) De Kunstfabriek, Rietlei 103</p>
-          <p>Proef van een sfeervolle namiddag met beeld, taal en muziek.</p>
-        </div><!-- festival__item -->
-        <div class="festival__item">
-          <h3>Instrumenten<wbr>voorstelling</h3>
-          <p>Bespeel verschillende instrumenten en maak een praatje met de leerkrachten.</p>
-          <p>donderdag 11 mei (17.30 - 18.30 u.) Sint-Martinuskerk, Kerkstraat 31</p>
-        </div><!-- festival__item -->
-      </div><!-- festival__item--wrap -->
-
-    </div><!-- row -->
+    {% include vacature.html %}
 
     <!-- MUZIEK -->
 

@@ -66,6 +66,10 @@ footer { min-height: 120px; }
 
 .spacer { height: 1.5em; }
 
+.p-small { font-size: .65em; }
+
+.inspring { padding-left: 1em; }
+
 .blue { color: var(--c-1); }
 
 .nav-focus-color { color: #ef3e70; }
@@ -540,6 +544,13 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 @media screen and (min-width: 768px) { .festival { font-size: 4em; } }
 
 .festival__item { margin: 1em; }
+
+/* =============================== Vacature ==================================*/
+.vacature { color: var(--c-4); padding-bottom: 1em; margin-bottom: 1em; }
+
+.vacature__head h2 { font-size: 2.1em; line-height: .8em; padding: 10px; }
+
+.vacature__post p { padding: 10px; }
 
 /* =============================== inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen) ==================================*/
 .tweesporen-heading { text-decoration: underline; margin-top: 1.5em; }
