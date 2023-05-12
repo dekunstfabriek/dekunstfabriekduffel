@@ -1,6 +1,6 @@
 ---
 title: Lessen eindigen op 30 juni 2023
-date: 2023-05-10 00:00:00 +02:00
+date: 2023-05-12 00:00:00 +02:00
 layout: post
 author: Luc
 ---
