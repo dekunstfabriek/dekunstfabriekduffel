@@ -184,8 +184,8 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
             <br>
         </div>
         <div class="row">
-          <img class="display-small" src="/assets/img/timeline-inschrijvingen-2023.jpg" alt="timeline inschrijvingen">
-          <img class="display-large" src="/assets/img/timeline-inschrijvingen-2023-groot.jpg" alt="timeline inschrijvingen">
+          <img class="display-small" src="/assets/img/Timeline-inschrijvingen-2023.jpg" alt="timeline inschrijvingen">
+          <img class="display-large" src="/assets/img/Timeline-inschrijvingen-2023-groot.jpg" alt="timeline inschrijvingen">
         </div>
     </section>
 
