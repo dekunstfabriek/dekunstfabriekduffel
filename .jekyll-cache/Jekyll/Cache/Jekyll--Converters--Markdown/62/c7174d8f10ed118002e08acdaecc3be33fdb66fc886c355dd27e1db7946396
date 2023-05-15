@@ -1,11 +1,4 @@
----
-title: inschrijvingen
-layout: default
-description: Inschrijvingen voor de lessen muziek, beeldende kunsten en spaans aan
-  de Kunstfabriek starten op 7 juli 2021.
----
-
-<!--
+I"94<!--
 =========================================================
 =========================================================
 pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
@@ -14,10 +7,10 @@ pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
 op lijn 339 column count un-commenten
 -->
 
-  <main id="top">
+<main id="top">
     <section class="inschrijvingen">
       <div class="row">
-        <br>
+        <br />
         <h2>INSCHRIJVINGEN</h2>
         <article>
           <p>Je bent duidelijk geinteresseerd in de lessen van de Kunstfabriek anders had je deze pagina niet gevonden.</p>
@@ -54,11 +47,11 @@ op lijn 339 column count un-commenten
               <li>- Improvisatie</li>
               <li>- Muziek op de computer</li>
             </ul>
-            <br>
+            <br />
             <p>Om in te schrijven voor deze lessen kan je rechtstreeks naar de webshop van de gemeente Duffel surfen:</p>
             <a href="https://webshopduffel.recreatex.be" target="blank">webshopduffel.recreatex.be</a>
-            <p><strong>INSCHRIJVEN TOT 21 SEPTEMBER</strong></p>
-            <br>
+            <p><strong>INSCHRIJVEN TOT 22 SEPTEMBER</strong></p>
+            <br />
             <p>Hou volgende gegevens bij de hand:</p>
             <p>Rijksregisternummer (vind je op je identiteitsbewijs) - Telefoonnummer - Email-adres</p>
             <a href="#lesuren">Lesuren klassikale lessen &#8628;</a>
@@ -88,9 +81,9 @@ op lijn 339 column count un-commenten
               <li>- Samenspel</li>
               <li>- Bandcoaching</li>
             </ul>
-            <br>
+            <br />
             <p>Voor de instrumentlessen zijn slechts een beperkt aantal plaatsen vrij, afhankelijk van het aantal leerlingen dat vorig schooljaar gestopt is met de lessen. Wees er dus op tijd bij!</p>
-            <br>
+            <br />
             <p>Voor deze lessen neem je eerst contact op met de dienst “Vrije Tijd” of via dekunstfabriek@duffel.be</p>
             <p>(Als je samenspel, songwriting of bandcoaching wil volgen wordt je eerst nog in contact gebracht met de leraar.)</p>
             <p>Zij weten je te vertellen of er nog plaats is, waarna ze met jou een uur en een dag afspreken waarop de les zal plaats vinden.</p>
@@ -120,7 +113,7 @@ op lijn 339 column count un-commenten
             </div>
           </aside>
         </div><!-- grid indiv -->
-
+        
       </div>
     </section>
     <section class="prijzen">
@@ -139,17 +132,17 @@ op lijn 339 column count un-commenten
             <td>+18</td>
           </tr>
           <tr>
-            <td>Talen <br>Beeldende Vorming</td>
+            <td>Talen <br />Beeldende Vorming</td>
             <td>&euro; 82</td>
             <td>&euro; 108</td>
             <td>&euro; 130</td>
             <td>&euro; 170</td>
           </tr>
           <tr>
-            <td>Praatcafé Talen <br>
-                Kunstlab <br>
-                Muzieklab <br>
-                Bandcoaching <br>
+            <td>Praatcafé Talen <br />
+                Kunstlab <br />
+                Muzieklab <br />
+                Bandcoaching <br />
                 Groot samenspel/samenzang</td>
             <td>&euro; 72</td>
             <td>&euro; 98</td>
@@ -178,14 +171,14 @@ op lijn 339 column count un-commenten
             <p><strong>Gespreide betaling</strong> is mogelijk.</p>
             <p><strong>Korting </strong>vanaf 2de kind van het gezin.</p>
             <p><strong>"Vrije Tijd voor iedereen"</strong>-korting, zie voorwaarden op <a href="https://www.duffel.be/vrijetijdvooriedereen" target="_blank" rel="noreferrer">www.duffel.be/vrijetijdvooriedereen</a></p>
-            <br>
-            <br>
+            <br />
+            <br />
         </div>
     </section>
     <section class="lesuren" id="lesuren">
       <div class="row">
         <h2>UREN klassikale lessen</h2>
-        <br>
+        <br />
       </div>
       <div class="lesuren__grid row">
         <div class="lesuren__item">
@@ -375,3 +368,4 @@ op lijn 339 column count un-commenten
       </div>
     </section>
   </main>
+:ET

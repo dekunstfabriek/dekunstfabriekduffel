@@ -1,4 +1,4 @@
-I"�;<!--
+I"�=<!--
 =========================================================
 =========================================================
 pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
@@ -32,19 +32,22 @@ op lijn 339 column count un-commenten
           <li>- Rechtstreeks via de <strong>WEBSHOP</strong></li>
           <li>- Via contact met de <strong>DIENST VRIJE TIJD</strong></li>
         </ul>
-
+<!--
         <h2 class="tweesporen-heading">via WEBSHOP</h2>
-
+-->
         <div class="klassik grid">
           <article>
-            <h3>Klassikale lessen</h3>
+            <h3>Via de WEBSHOP</h3>
             <ul>
               <li>- Spaans - Barhablar</li>
               <li>- Koren (De Bende - The Gang - POPkoor’n) </li>
               <li>- Muzieklab (voorheen: notenleer)</li>
               <li>- Kunstlab (voorheen: muziekinitiatie) </li>
               <li>- Beeldende vorming.</li>
+              <li>- Improvisatie</li>
+              <li>- Muziek op de computer</li>
             </ul>
+            <br />
             <p>Om in te schrijven voor deze lessen kan je rechtstreeks naar de webshop van de gemeente Duffel surfen:</p>
             <a href="https://webshopduffel.recreatex.be" target="blank">webshopduffel.recreatex.be</a>
             <p><strong>INSCHRIJVEN TOT 22 SEPTEMBER</strong></p>
@@ -66,17 +69,25 @@ op lijn 339 column count un-commenten
             </div>
           </aside>
         </div><!-- grid -->
-
+<!--
         <h2 class="tweesporen-heading">via DIENST VRIJE TIJD</h2>
-
+-->
         <div class="indiv grid">
           <article>
-            <h3>Instrumenten &amp; song writing</h3>
-            <p>Er zijn slechts een beperkt aantal plaatsen vrij, afhankelijk van het aantal leerlingen dat vorig schooljaar gestopt is met de lessen. Wees er dus op tijd bij!</p>
+            <h3>Via dienst "VRIJE TIJD"</h3>
+            <ul>
+              <li>- Instrumentlessen</li>
+              <li>- Songwriting</li>
+              <li>- Samenspel</li>
+              <li>- Bandcoaching</li>
+            </ul>
+            <br />
+            <p>Voor de instrumentlessen zijn slechts een beperkt aantal plaatsen vrij, afhankelijk van het aantal leerlingen dat vorig schooljaar gestopt is met de lessen. Wees er dus op tijd bij!</p>
             <br />
             <p>Voor deze lessen neem je eerst contact op met de dienst “Vrije Tijd” of via dekunstfabriek@duffel.be</p>
+            <p>(Als je samenspel, songwriting of bandcoaching wil volgen wordt je eerst nog in contact gebracht met de leraar.)</p>
             <p>Zij weten je te vertellen of er nog plaats is, waarna ze met jou een uur en een dag afspreken waarop de les zal plaats vinden.</p>
-            <p>Je geeft hen alle nodige gegevens (zie klassikale lessen)</p>
+            <p>Je geeft hen alle nodige gegevens.</p>
             <p>Daarna plaatsen zij dat dan in de webshop in jouw winkelmandje. (niemand kan vanaf dan je plaats nog innemen)</p>
             <p>Ga naar de webshop <a href="https://webshopduffel.recreatex.be" target="blank">webshopduffel.recreatex.be</a> en volg de instructies.</p>
             <p><strong>INSCHRIJVEN TOT 21 AUGUSTUS</strong></p>
@@ -161,10 +172,10 @@ op lijn 339 column count un-commenten
           </tr>
           <tr>
             <td>Talen <br />Beeldende Vorming</td>
-            <td>&euro; 80</td>
-            <td>&euro; 105</td>
-            <td>&euro; 128</td>
-            <td>&euro; 168</td>
+            <td>&euro; 82</td>
+            <td>&euro; 108</td>
+            <td>&euro; 130</td>
+            <td>&euro; 170</td>
           </tr>
           <tr>
             <td>Praatcafé Talen <br />
@@ -172,24 +183,24 @@ op lijn 339 column count un-commenten
                 Muzieklab <br />
                 Bandcoaching <br />
                 Groot samenspel/samenzang</td>
-            <td>&euro; 70</td>
-            <td>&euro; 95</td>
-            <td>&euro; 112</td>
-            <td>&euro; 152</td>
+            <td>&euro; 72</td>
+            <td>&euro; 98</td>
+            <td>&euro; 114</td>
+            <td>&euro; 154</td>
           </tr>
           <tr>
             <td>Klein samenspel</td>
-            <td>&euro; 105</td>
-            <td>&euro; 150</td>
-            <td>&euro; 168</td>
-            <td>&euro; 240</td>
+            <td>&euro; 108</td>
+            <td>&euro; 152</td>
+            <td>&euro; 170</td>
+            <td>&euro; 242</td>
           </tr>
           <tr>
             <td>Individuele lessen</td>
-            <td>&euro; 135</td>
-            <td>&euro; 190</td>
-            <td>&euro; 216</td>
-            <td>&euro; 304</td>
+            <td>&euro; 138</td>
+            <td>&euro; 192</td>
+            <td>&euro; 218</td>
+            <td>&euro; 306</td>
           </tr>
         </table>
       </div>
