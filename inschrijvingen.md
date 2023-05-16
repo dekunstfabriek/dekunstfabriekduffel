@@ -23,7 +23,7 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
         <h2>INSCHRIJVINGEN</h2>
         <article>
           <p>Je bent duidelijk geinteresseerd in de lessen van de Kunstfabriek anders had je deze pagina niet gevonden.</p>
-          <p>Als je graag volgend schooljaar lessen wil volgen in de Kunstfabriek kan je je inschrijven vanaf <strong><u>21 juni</u></strong>.</p>
+          <p>Als je graag volgend schooljaar lessen wil volgen in de Kunstfabriek kan je je inschrijven vanaf <strong><u>26 juni</u></strong>.</p>
           <!--
           <p>Wil je eerst nog wat informatie over de lessen, wanneer ze gegeven worden of hoeveel ze kosten, dan kan je eerst nog wat rondkijken op deze website.</p>
           -->

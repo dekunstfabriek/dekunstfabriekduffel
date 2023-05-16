@@ -1,4 +1,4 @@
-I"+<main id="top">
+I"}<main id="top">
 
     <div class="laatste-nieuws row">
         <div class="laatste-nieuws__item">
@@ -69,6 +69,9 @@
   </div>
   <div class="vacature__post">
     <p><strong>&rHar; Leraar BLOKFLUIT</strong></p>
+    <a href="/assets/img/functiebeschrijving-blokfluit.docx" style="color:rgba(199,51,101,1);font-size:13px;padding-left:10px;" download="">download de functiebeschrijving</a>
+    <br />
+    <a href="/assets/img/vacature-blokfluit.docx" style="color:rgba(199,51,101,1);font-size:13px;padding-left:10px;" download="">download vacature</a>
     <!-- andere pijl: &#8680; -->
   </div>
 </div>
