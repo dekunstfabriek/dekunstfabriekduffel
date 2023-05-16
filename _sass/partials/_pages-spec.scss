@@ -761,7 +761,17 @@ img.blackback {
   &__post p {
     padding: 10px;
   }
+  &__post a {
+    color: var(--c-4);
+    font-size: 13px;
+    padding-left: 31px;
+    line-height: 1em;
+    &:hover {
+      color: var(--c-s3);
+    }
+  }
 }
+
 /* ===============================
     inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen)
 ==================================*/

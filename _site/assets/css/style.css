@@ -558,6 +558,10 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 .vacature__post p { padding: 10px; }
 
+.vacature__post a { color: var(--c-4); font-size: 13px; padding-left: 31px; line-height: 1em; }
+
+.vacature__post a:hover { color: var(--c-s3); }
+
 /* =============================== inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen) ==================================*/
 .tweesporen-heading { text-decoration: underline; margin-top: 1.5em; }
 
