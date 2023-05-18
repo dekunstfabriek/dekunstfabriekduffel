@@ -201,5 +201,7 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
       <div class="row to-top">
         <a href="#top">Back to top &#8593;</a>
       </div>
+      <!--
     </section>
+    -->
   </main>

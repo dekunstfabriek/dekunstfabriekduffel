@@ -5,8 +5,7 @@ beschrijving: De Bende overvalt je met enthousiasme en podium-plezier. "The Gang
   zingen.
 image: debende.jpg
 alt_text: leuke groepsfoto van de bende
-instrumenten: De Bende -12j <br> The Gang 12-18j <br> POPkoor'n +18j
-overlay: 
+instrumenten: The Gang 12-18j <br> POPkoor'n +18j
+overlay:
 sort: b
 ---
-
