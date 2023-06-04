@@ -1,0 +1,110 @@
+I"<main id="top">
+    <section class="ensemble">
+      <div class="row ensemble__head">
+        <!-- <h2>Samenspel</h2> -->
+        <img src="/assets/img/Header-folder-2021-D.jpg" width="1820" alt="collage van foto's van samenspelgroepen, maar ook banner met de tekst samenspel" />
+        <p>Spelen in groep kan zo geweldig zijn. Samen muziek maken, klanken die verweven in elkaar en jouw stem die mee de harmonie maakt, interactie met de andere muzikanten, via de muziek een sfeer creëren, voelen dat je in een groep een belangrijk onderdeel bent van het gebeuren, … Dat gevoel is onbeschrijflijk.</p>
+
+<p>In de Kunstfabriek hebben we heel uiteenlopende samenspelgroepen. Van kleine gemengde groepen over instrumenten-ensembles tot rock-bands. Ook kunnen bestaande groepen via bandcoaching begeleid worden.</p>
+
+<p>Er zijn dit jaar enkele <strong>nieuwe</strong> samenspelgroepen. Onder voorbehoud van voldoende inschrijvingen worden deze opgericht: <strong>SOUL/FUNK - FOLK - FILM-muziek</strong></p>
+
+      </div>
+      <div class="row ensemble__wrap">
+
+      
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/film2.jpg" width="600" alt="collage van affiches van films van Pedro Almodovar" class="blackback" />
+            <figcaption class="capitalize">film-muziek (klassiek)</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>Alberto Iglesias, Hans Zimmerman, Angelo Badalamenti, ... Hedendaagse filmmuziek. Sluit je ogen en je wordt onmiddellijk de protagonist in één van je favoriete films.</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>piano - keyboards - klarinet - dwarsfluit - saxofoon - gitaar</p>
+          </div>
+        </article>
+
+       
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/folk.jpg" width="600" alt="optreden van een folk-groep in een cultureel centrum" class="" />
+            <figcaption class="capitalize">Folk</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>Speelplezier in groep ten top! We leren samen melodieën vanuit verschillende tradities, Ierland, Zweden, Frankrijk, Polen, ... en zetten ze samen in een groovy arrangement.</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>blokfluit - dwarsfluit - viool - klarinet - gitaar - piano</p>
+          </div>
+        </article>
+
+       
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/soulfunk.jpg" width="600" alt="close-up van een gitariste onder blauwe spotlights" class="blackback" />
+            <figcaption class="capitalize">soul/funk</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>James Brown - Marvin Gaye - Prince - Aretha Franklin - Tower of Power - Otis Redding - Parliament - Isley Brothers - Ray Charles - ...</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>gitaar - basgitaar - drums - zang - keyboards - blazers</p>
+          </div>
+        </article>
+
+       
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/strijkers3.jpg" width="600" alt="optreden van het vioolensemble in de plaza in 2020" class="" />
+            <figcaption class="capitalize">violen</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>Gepassioneerde strijkers gezocht voor ensemble &quot;Meraki&quot;, het gezelligste orkest ter wereld. Enthousiasme en spelplezier zijn onze enige vereisten.</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>viool - cello - contrabas</p>
+          </div>
+        </article>
+
+       
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/front.jpg" width="600" alt="optreden van een samenspel groep van Roel" class="" />
+            <figcaption class="capitalize">bandcoaching</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>Ondersteuning van bestaande groepen is mogelijk. Samen worden er ideëen gesprokkelt en richting gegeven aan de groep.</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>gitaar - bas - drums - zang - keyboards - blazers</p>
+          </div>
+        </article>
+
+       
+
+     <article>
+          <div class="ensemble__item ensemble__item--img">
+            <img src="/assets/img/debende.jpg" width="600" alt="leuke groepsfoto van de bende" class="" />
+            <figcaption class="capitalize">koren</figcaption>
+          </div>
+          <div class="ensemble__item ensemble__item--uitleg">
+            <p>De Bende overvalt je met enthousiasme en podium-plezier. &quot;The Gang&quot; zingt de pannen van het dak. &quot;POPkoor&#39;n&quot; is een heerlijk uurtje meerstemmige popnummers zingen.</p>
+          </div>
+          <div class="ensemble__item ensemble__item--instr">
+            <p>De bende -16j <br /> POPkoor'n +16j</p>
+          </div>
+        </article>
+
+       
+      </div>
+    </section><!-- samenspel -->
+
+  </main>
+:ET

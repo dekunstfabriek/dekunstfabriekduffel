@@ -476,6 +476,9 @@ aside a {
 th.no-border-top {
   border-top: none;
 }
+th.no-border-bottom {
+  border-bottom: none;
+}
 @media screen and (min-width: 1024px) {
   .lesuren__grid {
     grid-template-columns: 1fr 1fr;
@@ -778,4 +781,14 @@ img.blackback {
 .tweesporen-heading {
   text-decoration: underline;
   margin-top: 1.5em;
+}
+/* ===============================
+    LESUREN pagina
+==================================*/
+#lesuren .header {
+    background-color: var(--c-1);
+}
+#lesuren h2 {
+  color: var(--c-1);
+  margin-top: 25px;
 }

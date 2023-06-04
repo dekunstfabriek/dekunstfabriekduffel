@@ -10,7 +10,7 @@ intro_text: |-
 
   In de Kunstfabriek hebben we heel uiteenlopende samenspelgroepen. Van kleine gemengde groepen over instrumenten-ensembles tot rock-bands. Ook kunnen bestaande groepen via bandcoaching begeleid worden.
 
-  Er zijn dit jaar enkele **nieuwe** samenspelgroepen. Onder voorbehoud van voldoende inschrijvingen worden deze opgericht: **SOUL/FUNK - FOLK - FILM-muziek**
+  Er zijn dit jaar enkele **nieuwe** samenspelgroepen. Onder voorbehoud van voldoende inschrijvingen worden deze opgericht: **SOUL/FUNK - FOLK - FILM-muziek - Pop-ensemble unplugged**
 layout: default
 ---
 

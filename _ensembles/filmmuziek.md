@@ -5,8 +5,7 @@ beschrijving: Alberto Iglesias, Hans Zimmerman, Angelo Badalamenti, ... Hedendaa
   favoriete films.
 image: film2.jpg
 alt_text: collage van affiches van films van Pedro Almodovar
-instrumenten: piano - keyboards - klarinet - dwarsfluit - saxofoon - gitaar
+instrumenten: piano - keyboards - klarinet - dwarsfluit - saxofoon - gitaar - viool - cello
 overlay: blackback
 sort: a
 ---
-

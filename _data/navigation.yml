@@ -1,13 +1,14 @@
 - name: home
   link: /home
-- name: instrumenten
-  link: /instrumenten
 - name: inschrijvingen
   link: /inschrijvingen
+- name: lesuren
+  link: /lesuren
 - name: samenspel
   link: /samenspel
-- name: laatste nieuws
-  link: /posts
+- name: instrumenten
+  link: /instrumenten
 - name: nieuwe cursussen
   link: /nieuwe-cursussen
-
+- name: laatste nieuws
+  link: /posts

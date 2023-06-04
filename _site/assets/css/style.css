@@ -98,7 +98,7 @@ footer { min-height: 120px; }
 
 @media screen and (min-width: 1024px) { .nieuws p, .nieuws a { font-size: 1em; } }
 
-.laatste-nieuws__item { width: 100%; padding: 0 2% 18px; background-color: rgba(97, 175, 171, 0.13); font-size: .8em; }
+.laatste-nieuws__item { width: 100%; padding: 0 2% 18px; background-color: rgba(97, 175, 171, 0.16); font-size: .8em; }
 
 .laatste-nieuws__item:first-of-type { margin-right: 0px; }
 
@@ -428,6 +428,8 @@ aside a { color: #fff; display: block; }
 
 th.no-border-top { border-top: none; }
 
+th.no-border-bottom { border-bottom: none; }
+
 @media screen and (min-width: 1024px) { .lesuren__grid { grid-template-columns: 1fr 1fr; gap: 2em; } }
 
 .to-top { margin-bottom: 27px; }
@@ -564,6 +566,11 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 /* =============================== inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen) ==================================*/
 .tweesporen-heading { text-decoration: underline; margin-top: 1.5em; }
+
+/* =============================== LESUREN pagina ==================================*/
+#lesuren .header { background-color: var(--c-1); }
+
+#lesuren h2 { color: var(--c-1); margin-top: 25px; }
 
 #posts .header { background-color: var(--c-s4); }
 
