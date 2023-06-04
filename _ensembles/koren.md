@@ -6,6 +6,7 @@ beschrijving: De Bende overvalt je met enthousiasme en podium-plezier. "The Gang
 image: debende.jpg
 alt_text: leuke groepsfoto van de bende
 instrumenten: De bende -16j <br> POPkoor'n +16j
-overlay:
+overlay: 
 sort: b
 ---
+
