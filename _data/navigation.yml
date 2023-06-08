@@ -1,14 +1,16 @@
 - name: home
   link: /home
-- name: inschrijvingen
-  link: /inschrijvingen
-- name: lesuren
-  link: /lesuren
 - name: samenspel
   link: /samenspel
 - name: instrumenten
   link: /instrumenten
+- name: beeldende vorming
+  link: /beeldende-vorming
+- name: talen
+  link: /talen
+- name: lesuren
+  link: /lesuren
 - name: nieuwe cursussen
   link: /nieuwe-cursussen
-- name: laatste nieuws
-  link: /posts
+- name: inschrijvingen
+  link: /inschrijvingen
