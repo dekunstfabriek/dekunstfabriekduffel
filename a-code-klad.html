@@ -1,18 +1,41 @@
-<div class="row">
-  <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt
-    kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten
-    via verschillende technieken en met allerlei materialen. Voor volwassenen wordt
-    de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.</p>
-</div>
-<div class="row">
-  <h3>Een paar van onze creaties van dit jaar</h3>
+---
+title: a code klad
+layout: default
+---
 
-</div>
-<div class="row">
-  <div class="gallery-bv">
-    <figure>
-      <img src="Beeldende-vorming-klein-web.jpeg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%">
-      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-    </figure>
-  </div>
-</div>
+<main id="top">
+
+  <div class="row laatste-nieuws-2-columns">
+      <div class="laatste-nieuws-2-columns__item">
+        <h2>Laatste Nieuws</h2>
+        <!-- <small>laatste nieuws items... <br><a href="#">meer...</a></small> -->
+          {% for post in site.posts limit: 4 %}
+             <div class="nieuws__title-wra">
+                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                  <p><i><small>gepost op: {{ post.date | date_to_string }}</small></i></p>
+             </div>
+              {{ post.excerpt | truncatewords: 15 | markdownify }}
+          {% endfor %}
+          <a href="/posts">meer Laatste Nieuws items ...</a>
+      </div>
+  </div><!-- laatste nieuws-2-columns row -->
+
+      <div class="row">
+        <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt
+          kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten
+          via verschillende technieken en met allerlei materialen. Voor volwassenen wordt
+          de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.</p>
+      </div>
+      <div class="row">
+        <h3>Een paar van onze creaties van dit jaar</h3>
+
+      </div>
+      <div class="row">
+        <div class="gallery-bv">
+          <figure>
+            <img src="Beeldende-vorming-klein-web.jpeg" alt="Compositie in stukken door verschillende leerlingen" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+        </div>
+      </div>
+</main>

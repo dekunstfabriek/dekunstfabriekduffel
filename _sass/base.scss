@@ -230,8 +230,12 @@ footer {
 }
 /* <-- SKIPLINK */
 
-/* nog niet in gebruik
-========================= */
+/* =======================================
+  buiten gebruik gesteld nadat
+  beslist werd om AANWEZIG/AFWEZIG
+  af te schaffen op 09-06-23
+  vervangen door laatste-nieuws-2-columns
+========================================== */
 .laatste-nieuws {
   display: flex;
   justify-content: space-between;
@@ -298,6 +302,66 @@ footer {
   padding: .7em 0;
 }
 .laatste-nieuws a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.no-break {
+  -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+/* ========================================================
+  laatste nieuws 2 columns
+  vervanging van laatste nieuws + aanwezig/afwezig 09-06-23
+===========================================================*/
+.laatste-nieuws-2-columns {
+  column-count: 1;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  border: 1px solid var(--c-1);
+  border-radius: 8px;
+  flex-wrap:wrap;
+}
+@media screen and (min-width: 1024px) {
+  .laatste-nieuws-2-columns {
+    column-count: 2;
+  }
+}
+.laatste-nieuws-2-columns__item {
+  width: 100%;
+  padding: 0 2% 18px;
+    background-color: rgba(97,175,171, .16);
+    font-size: .8em;
+}
+.laatste-nieuws-2-columns__item:first-of-type {
+    margin-right: 0px;
+//    background-color: rgba(97,175,171, .16);
+}
+
+.laatste-nieuws-2-columns__item:last-of-type {
+    margin-top: 8px;
+}
+@media screen and (min-width: 1024px) {
+    .laatste-nieuws-2-columns__item {
+        margin-top: 0;
+    }
+    .laatste-nieuws-2-columns__item:last-of-type {
+        margin-top: 0px;
+    }
+    .laatste-nieuws-2-columns__item:first-of-type {
+        margin-right: 7px;
+    }
+}
+.laatste-nieuws-2-columns a {
+  color: var(--c-1);
+}
+.laatste-nieuws-2-columns a:hover {
+    color: var(--c-s1);
+}
+.laatste-nieuws-2-columns h2 {
+  padding: .7em 0;
+}
+.laatste-nieuws-2-columns a {
   text-decoration: none;
   font-weight: bolder;
 }

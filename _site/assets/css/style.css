@@ -90,8 +90,7 @@ footer { min-height: 120px; }
 .active-link { color: #ef3e70; }
 
 /* <-- SKIPLINK */
-/* nog niet in gebruik
-========================= */
+/* ======================================= buiten gebruik gesteld nadat beslist werd om AANWEZIG/AFWEZIG af te schaffen op 09-06-23 vervangen door laatste-nieuws-2-columns ========================================== */
 .laatste-nieuws { display: flex; justify-content: space-between; align-items: stretch; margin-top: 22px; margin-bottom: 22px; border: 1px solid var(--c-1); border-radius: 8px; flex-wrap: wrap; }
 
 .nieuws p, .nieuws a { font-size: .8em; }
@@ -115,6 +114,29 @@ footer { min-height: 120px; }
 .laatste-nieuws h2 { padding: .7em 0; }
 
 .laatste-nieuws a { text-decoration: none; font-weight: bolder; }
+
+.no-break { -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+
+/* ======================================================== laatste nieuws 2 columns vervanging van laatste nieuws + aanwezig/afwezig 09-06-23 ===========================================================*/
+.laatste-nieuws-2-columns { column-count: 1; margin-top: 22px; margin-bottom: 22px; border: 1px solid var(--c-1); border-radius: 8px; flex-wrap: wrap; }
+
+@media screen and (min-width: 1024px) { .laatste-nieuws-2-columns { column-count: 2; } }
+
+.laatste-nieuws-2-columns__item { width: 100%; padding: 0 2% 18px; background-color: rgba(97, 175, 171, 0.16); font-size: .8em; }
+
+.laatste-nieuws-2-columns__item:first-of-type { margin-right: 0px; }
+
+.laatste-nieuws-2-columns__item:last-of-type { margin-top: 8px; }
+
+@media screen and (min-width: 1024px) { .laatste-nieuws-2-columns__item { margin-top: 0; } .laatste-nieuws-2-columns__item:last-of-type { margin-top: 0px; } .laatste-nieuws-2-columns__item:first-of-type { margin-right: 7px; } }
+
+.laatste-nieuws-2-columns a { color: var(--c-1); }
+
+.laatste-nieuws-2-columns a:hover { color: var(--c-s1); }
+
+.laatste-nieuws-2-columns h2 { padding: .7em 0; }
+
+.laatste-nieuws-2-columns a { text-decoration: none; font-weight: bolder; }
 
 /* ============================= 404-PAGE ===============================*/
 .fourofour { height: 100vh; display: flex; flex-direction: column; justify-content: center; }
@@ -367,8 +389,7 @@ q:after { content: ""; }
 
 .nieuws li { border: 1px solid var(--c-1); border-radius: 5px; padding: 0 8px; }
 
-.nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
-
+/*.nieuws__title-wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; } */
 /* =============================== POSTS SPECIFIC STYLES ==================================*/
 #inschrijvingen .header { background-color: #000; }
 
@@ -571,6 +592,25 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 #lesuren .header { background-color: var(--c-1); }
 
 #lesuren h2 { color: var(--c-1); margin-top: 25px; }
+
+/* =============================== PROEFLESSEN pagina ==================================*/
+#proeflessen .header { background-color: var(--c-1); }
+
+#proeflessen h2 { color: var(--c-1); margin-top: 25px; margin-bottom: 25px; }
+
+.Proeflessen__grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+
+.proeflessen__item th { font-weight: bolder; padding: 5px 0; border-top: 2px solid var(--c-3); color: #000; }
+
+.proeflessen__item th, .proeflessen__item td { border-bottom: 2px solid var(--c-3); }
+
+.proeflessen__andere th, .proeflessen__andere td { border-bottom: 2px solid var(--c-3); }
+
+th.no-border-top { border-top: none; }
+
+th.no-border-bottom { border-bottom: none; }
+
+@media screen and (min-width: 1024px) { .proeflessen__grid { grid-template-columns: 1fr; gap: 2em; } }
 
 #posts .header { background-color: var(--c-s4); }
 

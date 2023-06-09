@@ -314,12 +314,13 @@ q:after {
         padding: 0 8px;
     }
 }
-.nieuws__title-wrap {
+/*.nieuws__title-wrap {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
 }
+*/
 
 /* ===============================
     POSTS SPECIFIC STYLES
@@ -791,4 +792,46 @@ img.blackback {
 #lesuren h2 {
   color: var(--c-1);
   margin-top: 25px;
+}
+/* ===============================
+    PROEFLESSEN pagina
+==================================*/
+#proeflessen .header {
+  background-color: var(--c-1);
+}
+#proeflessen h2 {
+  color: var(--c-1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.Proeflessen__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.proeflessen__item th {
+  font-weight: bolder;
+  padding: 5px 0;
+  border-top: 2px solid var(--c-3);
+  color: #000;
+}
+.proeflessen__item th,
+.proeflessen__item td {
+  border-bottom: 2px solid var(--c-3);
+}
+.proeflessen__andere th,
+.proeflessen__andere td {
+  border-bottom: 2px solid var(--c-3);
+}
+th.no-border-top {
+  border-top: none;
+}
+th.no-border-bottom {
+  border-bottom: none;
+}
+@media screen and (min-width: 1024px) {
+  .proeflessen__grid {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
 }
