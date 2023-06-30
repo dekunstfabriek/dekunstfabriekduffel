@@ -762,6 +762,10 @@ img.blackback {
     line-height: .8em;
     padding: 10px;
   }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   &__post p {
     padding: 10px;
   }
@@ -775,7 +779,13 @@ img.blackback {
     }
   }
 }
-
+@media screen and (min-width: 768px) {
+  .vacature {
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
 /* ===============================
     inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen)
 ==================================*/

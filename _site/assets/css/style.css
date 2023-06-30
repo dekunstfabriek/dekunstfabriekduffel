@@ -579,11 +579,15 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 .vacature__head h2 { font-size: 2.1em; line-height: .8em; padding: 10px; }
 
+.vacature__grid { display: grid; grid-template-columns: 1fr; }
+
 .vacature__post p { padding: 10px; }
 
 .vacature__post a { color: var(--c-4); font-size: 13px; padding-left: 31px; line-height: 1em; }
 
 .vacature__post a:hover { color: var(--c-s3); }
+
+@media screen and (min-width: 768px) { .vacature__grid { grid-template-columns: 1fr 1fr 1fr; } }
 
 /* =============================== inschrijvingen 2sporen (lichte aanpassingen tov inschrijvingen) ==================================*/
 .tweesporen-heading { text-decoration: underline; margin-top: 1.5em; }
