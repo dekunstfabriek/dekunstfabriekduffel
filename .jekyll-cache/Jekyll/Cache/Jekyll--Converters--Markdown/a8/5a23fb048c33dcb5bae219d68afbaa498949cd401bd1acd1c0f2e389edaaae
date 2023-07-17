@@ -1,4 +1,4 @@
-I"%<main id="top">
+I"g<main id="top">
 
     <div class="row laatste-nieuws-2-columns">
         <div class="laatste-nieuws-2-columns__item">
@@ -47,7 +47,7 @@
 
     <div class="row vacature">
   <div class="vacature__head">
-    <h2>Vacature</h2>
+    <h2>Vacatures</h2>
   </div>
   <div class="vacature__grid">
     <div class="vacature__post">
@@ -58,12 +58,16 @@
       <!-- andere pijl: &#8680; -->
     </div>
     <div class="vacature__post">
-      <p><strong>&rHar; Docent BEELDENDE VORMING</strong></p>
+      <p><strong>&rHar; Docent PIANO</strong></p>
       <a href="/assets/img/functiebeschrijving-blokfluit.docx" download="">download de functiebeschrijving &#8659;</a>
       <br />
-      <a href="/assets/img/vacature-blokfluit.docx" download="">download vacature &#8659;</a>
+      <a href="/assets/img/vacature-piano.docx" download="">download vacature &#8659;</a>
       <!-- andere pijl: &#8680; -->
     </div>
+    <div class="vacature__post">
+      <!-- leeg omwille van grid-->
+    </div>
+
   </div>
 
 </div>
