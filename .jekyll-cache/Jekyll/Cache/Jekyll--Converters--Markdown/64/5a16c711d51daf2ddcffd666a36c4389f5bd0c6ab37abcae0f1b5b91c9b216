@@ -1,4 +1,4 @@
-I"g<main id="top">
+I":<main id="top">
 
     <div class="row laatste-nieuws-2-columns">
         <div class="laatste-nieuws-2-columns__item">
@@ -58,11 +58,7 @@
       <!-- andere pijl: &#8680; -->
     </div>
     <div class="vacature__post">
-      <p><strong>&rHar; Docent PIANO</strong></p>
-      <a href="/assets/img/functiebeschrijving-blokfluit.docx" download="">download de functiebeschrijving &#8659;</a>
-      <br />
-      <a href="/assets/img/vacature-piano.docx" download="">download vacature &#8659;</a>
-      <!-- andere pijl: &#8680; -->
+      
     </div>
     <div class="vacature__post">
       <!-- leeg omwille van grid-->
