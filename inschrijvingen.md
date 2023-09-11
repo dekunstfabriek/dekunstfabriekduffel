@@ -99,7 +99,7 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
             <p>Daarna plaatsen zij dat dan in de webshop in jouw winkelmandje. (niemand kan vanaf dan je plaats nog innemen)</p>
             <p>Ga naar de webshop <a href="https://webshopduffel.recreatex.be" target="blank">webshopduffel.recreatex.be</a> en volg de instructies.</p>
             <p><strong>INSCHRIJVEN INSTRUMENT TOT 21 AUGUSTUS</strong></p>
-            <p><strong>INSCHRIJVEN SAMENSPEL, SONGWRITING EN BANDCOACHING TOT 21 SEPTEMBER</strong></p>
+            <p><strong>INSCHRIJVEN SAMENSPEL EN BANDCOACHING TOT 21 SEPTEMBER</strong></p>
           </article>
           <aside class="procedure">
             <div class="procedure__item">
