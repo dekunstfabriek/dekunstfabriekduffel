@@ -674,6 +674,27 @@ img.blackback {
   max-width: 100%;
 }
 /* ===============================
+  MAP
+==================================*/
+#map .header {
+    background-color: var(--c-1);
+    margin-bottom: 2.5em;
+}
+.map img {
+  max-width: 100%;
+}
+.map-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+  .map-contact {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+/* ===============================
     Nieuwe cursussen
 ==================================*/
 #nieuwe-cursussen .header {
