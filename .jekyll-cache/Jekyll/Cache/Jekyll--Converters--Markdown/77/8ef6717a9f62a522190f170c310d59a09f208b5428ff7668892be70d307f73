@@ -1,4 +1,4 @@
-I"}3<!--
+I"½3<!--
 =========================================================
 =========================================================
 pages.spec.scss aanpassen om deze pagina te laten werken !!!!!!!!!
@@ -200,11 +200,13 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
           <td>Donderdag</td>
           <td>16u30-17u30</td>
         </tr>
+        <!--
         <tr>
           <td>Kunstlab 2 (5 - 7j)</td>
           <td>Maandag</td>
           <td>16u30-17u30</td>
         </tr>
+        -->
         <tr>
           <th colspan="3" class="no-border-top">Muzieklab <small>(voorheen: notenleer)</small></th>
         </tr>
@@ -214,9 +216,9 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
           <td>16u00-17u30</td>
         </tr>
         <tr>
-          <td>1ste jaar (12-17j)</td>
+          <td>1ste jaar b <strong>(-12j) *</strong></td>
           <td>Woensdag</td>
-          <td>19u00-20u30</td>
+          <td>14u30-16u00</td>
         </tr>
         <tr>
           <td>1ste jaar (+17j)</td>
@@ -300,11 +302,13 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
         <td>Zaterdag</td>
         <td>14u00-15u00</td>
       </tr>
+      <!--
       <tr>
         <td>Improvisatie</td>
         <td>Zaterdag</td>
         <td>15u00 - 16u00</td>
       </tr>
+      -->
     </table>
   </div><!-- lesuren__item -->
   <div class="lesuren__item">
@@ -373,8 +377,8 @@ DIT IS DE PAGINA VOOR DE INSCHRIJVINGEN VAN 2023-2024!!!!!!!!!
           <th colspan="3" class="no-border-top">Italiaans</th>
         </tr>
         <tr>
-          <td>Benvenuti *** </td>
-          <td>ntb</td>
+          <td>Benvenuti</td>
+          <td>maandag</td>
           <td>19u30 - 21u30</td>
         </tr>
         <tr>
