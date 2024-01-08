@@ -1,6 +1,6 @@
 ---
 title: Live at Cinema Plaza
-date: 2024-01-08 00:00:00 +02:00
+date: 2024-01-07 23:00:00 +01:00
 layout: post
 author: luc
 ---
