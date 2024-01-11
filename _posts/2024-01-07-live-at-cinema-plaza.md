@@ -28,7 +28,6 @@ author: luc
       <p>Kaarten: &#128; 10 / &#128; 5 (-18 jaar)</p>
       <p>Reserveren:</p>
       <a href="mailto:vriendenvandekunstfabriek@gmail.com">&#64;vriendenvandekunstfabriek</a>
-      <p>015/31 81 26</p>
     </div>
   </div>
 </div>
