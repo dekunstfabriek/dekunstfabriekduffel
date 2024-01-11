@@ -1,6 +1,6 @@
 ---
 title: kunstfabriek
-other_link: inschrijvingen
+other_link: inschrijvingen-original
 layout: landing
 ---
 
