@@ -2,9 +2,8 @@
 title: Vakantiedagen
 date: 2024-01-04 23:00:00 +01:00
 layout: post
-author: .
+author: "."
 ---
-
 
 <p>12 februari 2024 tot en met 18 februari 2024: <strong>krokusvakantie</strong></p>
 <p>Dinsdag 27 februari 2024: <strong>pedagogische studiedag</strong></p>
