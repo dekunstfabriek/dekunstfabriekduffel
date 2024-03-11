@@ -1,0 +1,126 @@
+I"�<main id="top">
+
+    <div class="row laatste-nieuws-2-columns">
+        <div class="laatste-nieuws-2-columns__item">
+          <h2>Laatste Nieuws</h2>
+          <!-- <small>laatste nieuws items... <br><a href="#">meer...</a></small> -->
+            
+               <div class="nieuws__title-wrap no-break">
+                   <h4><a href="/laatstenieuws/2024/03/06/cinema-plaza-300324.html">De Plaza Extended</a></h4>
+                    <p><i><small>gepost op: 06 Mar 2024</small></i></p>
+                    <p>Ons tweede optreden in cinema Plaza op 30 maart 2024</p>
+<p>Optredens van onze bands en...
+</p>
+
+               </div>
+
+            
+               <div class="nieuws__title-wrap no-break">
+                   <h4><a href="/laatstenieuws/2024/01/07/live-at-cinema-plaza.html">Live at Cinema Plaza</a></h4>
+                    <p><i><small>gepost op: 07 Jan 2024</small></i></p>
+                    <p>Optredens van onze bands en samenspelgroepen op 27 januari 2024.</p>
+
+               </div>
+
+            
+               <div class="nieuws__title-wrap no-break">
+                   <h4><a href="/laatstenieuws/2024/01/04/vakantiedagen.html">Vakantiedagen</a></h4>
+                    <p><i><small>gepost op: 04 Jan 2024</small></i></p>
+                    <p>12 februari 2024 tot en met 18 februari 2024: <strong>krokusvakantie</strong></p>
+<p>Dinsdag 27 februari 2024: <strong>pedagogische...
+</strong></p>
+
+               </div>
+
+            
+               <div class="nieuws__title-wrap no-break">
+                   <h4><a href="/laatstenieuws/2024/01/04/MAP.html">Maatschappelijk Artistiek Projectatelier</a></h4>
+                    <p><i><small>gepost op: 04 Jan 2024</small></i></p>
+                    <p>In MAP kan je werken met muziek, schrijven, beeldende kunst en bewegingsexpressie. Met al deze...
+</p>
+
+               </div>
+
+            
+            <a href="/posts">meer Laatste Nieuws items ...</a>
+        </div>
+    </div><!-- laatste nieuws-2-columns row -->
+
+
+    <!-- MUZIEK -->
+
+    <div class="muziek">
+      <div class="muziek__wrap row">
+        <div class="muziek__item muziek__item--1">
+         <a href="/home">
+          <img src="/assets/img/strijkers3.jpg" alt="optreden door vioolklas in de Plaza in 2020" />
+         </a>
+          <figcaption class="upcase">muziek</figcaption>
+        </div>
+        <div class="muziek__item muziek__item--1">
+          <h3>info</h3>
+          <p>De muziekafdeling van De Kunstfabriek werkt zoals een muziekacademie, maar met een persoonlijke aanpak, zonder examens en in een ontspannen kader. De instrumentlessen zijn één-op-één zodat je een persoonlijk traject kan volgen op een professionele manier. Van de cursist wordt verwacht dat hij een regelmatige inzet toont.</p>
+<!--          <a href="/">meer info</a>-->
+        </div>
+      </div><!-- muziek__wrap -->
+      <div class="muziek__wrap muziek__wrap--lessen row">
+        <p>instrument</p>
+        <p>samenspel</p>
+        <p>koren</p>
+        <p>muzieklab</p>
+        <p>andere</p>
+
+      </div>
+    </div><!-- muziek -->
+
+    <!-- SLOGAN -->
+    <div class="slogan row">
+      <q cite=""><i>Vind de artiest in jezelf!</i></q>
+    </div>
+
+    <!-- BEELDENDE VORMING -->
+    <div class="bak">
+      <div class="bak__wrap row">
+        <div class="muziek__item muziek__item--2">
+         <a href="/beeldende-vorming">
+          <img src="/assets/img/Beeldende-vorming-klein-web.jpeg" alt="beeldende kunsten" />
+         </a>
+          <figcaption class="upcase">beeldende vorming</figcaption>
+        </div>
+        <div class="muziek__item muziek__item--2">
+          <h3>info</h3>
+          <p>In de lessen beeldende vorming ontdek je je creatieve mogelijkheden. Je maakt kennis met vorm, kleur, ruimte en compositie. Je leert jezelf artistiek te uiten via verschillende technieken en met allerlei materialen. Voor volwassenen wordt de nadruk vooral gelegd op het aanleren van verschillende teken- en schildertechnieken.</p>
+<!--          <a href="/">meer info</a>-->
+        </div>
+      </div><!-- bak__wrap -->
+    </div><!-- bak -->
+
+    <!-- SLOGAN -->
+    <div class="slogan row">
+      <q cite=""><i>Muziek geeft je kriebels</i></q>
+    </div>
+
+    <!-- TALEN -->
+    <div class="talen">
+      <div class="talen__wrap row">
+        <div class="muziek__item muziek__item--1">
+         <a href="/talen">
+          <img src="/assets/img/talen-2.jpg" alt="verschillende wensen van over de hele wereld zeggen hallo" />
+         </a>
+          <figcaption class="upcase">talen</figcaption>
+        </div>
+        <div class="muziek__item muziek__item--1">
+          <h3>info</h3>
+          <p>De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onze lesgevers zijn wel allemaal professioneel opgeleid.</p>
+          <p>De Kunstfabriek werkt in een ontspannen kader, zonder examens, en met een persoonlijke aanpak. </p>
+<!--          <a href="/">meer info</a>-->
+        </div>
+      </div><!-- talen__wrap -->
+    </div><!-- talen -->
+
+      <br />
+      <hr />
+      <br />
+
+  </main>
+:ET
