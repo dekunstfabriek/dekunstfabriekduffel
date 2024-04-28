@@ -1,6 +1,6 @@
 ---
 title: Optredens bands op de markt voor mensen met talent
-date: 2024-04-15 23:00:00 +01:00
+date: 2024-04-16 00:00:00 +02:00
 layout: post
 author: "."
 ---
