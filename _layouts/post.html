@@ -5,7 +5,7 @@ layout: default-posts
 <main id="top">
     <div class="nieuws row">
         <h2>{{ page.title }}</h2>
-        <p>{{ page.date | date_to_string }} - {{ page.author }} </p>
+        <p><i>gepost op: {{ page.date | date_to_string }} - {{ page.author }} </i></p>
 
         {{ content }}
 
