@@ -1,6 +1,6 @@
 ---
 title: kunstfabriek
-other_link: inschrijvingen-original
+other_link: inschrijvingen-2024
 layout: landing
 ---
 

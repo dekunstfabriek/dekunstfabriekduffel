@@ -524,14 +524,14 @@ img.blackback { background-color: #000; filter: opacity(0.6); }
 
 @media screen and (min-width: 1024px) { .optreden p, .optreden a { font-size: 1em; } }
 
-/* =============================== Beeldende vorming ==================================*/
-.gallery-bv { display: grid; grid-template-columns: 1fr; }
+/* =============================================== Beeldende vorming + festifaldag.html --> images ==================================================*/
+.gallery-bv, .gallery-fd { display: grid; grid-template-columns: 1fr; }
 
-@media screen and (min-width: 768px) { .gallery-bv { grid-template-columns: 1fr 1fr; grid-gap: 1em; } }
+@media screen and (min-width: 768px) { .gallery-bv, .gallery-fd { grid-template-columns: 1fr 1fr; grid-gap: 1em; } }
 
-@media screen and (min-width: 1024px) { .gallery-bv { grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; } }
+@media screen and (min-width: 1024px) { .gallery-bv, .gallery-fd { grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; } }
 
-.gallery-bv img { max-width: 100%; }
+.gallery-bv, .gallery-fd img { max-width: 100%; }
 
 /* =============================== Kunstlab ==================================*/
 #kunstlab .header { background-color: var(--c-1); margin-bottom: 2.5em; }

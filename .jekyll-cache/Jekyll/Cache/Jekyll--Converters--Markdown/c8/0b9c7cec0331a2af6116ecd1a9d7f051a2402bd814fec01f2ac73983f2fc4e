@@ -1,4 +1,4 @@
-I"ˆ<main id="top">
+I"<main id="top">
 
     <div class="row laatste-nieuws-2-columns">
         <div class="laatste-nieuws-2-columns__item">
@@ -49,7 +49,7 @@
 
     
     <div class="row festival__wrap">
-      <h2 class="festival">Opendeurdag</h2>
+      <h2 class="festival" style="word-break: break-word">Festivaldag</h2>
       <div class="festival__item--wrap">
         <!--
         <div class="festival__item line-through">
@@ -74,6 +74,21 @@
         </div>
       </div><!-- festival__item--wrap -->
 
+      <div class="gallery-fd">
+        <figure>
+          <img src="assets/img/festivaldag-2024-a.jpg" alt="Affiche festivaldag" style="width:100%" />
+          <figcaption>.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/festivaldag-2024-b.jpg" alt="Workshops festivaldag" style="width:100%" />
+          <figcaption>Workshops</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/festivaldag-2024-c.jpg" alt="Meet and greet festivaldag" style="width:100%" />
+          <figcaption>Meet and greet</figcaption>
+        </figure>
+      </div>
+      <br />
 
     </div><!-- row -->
 
