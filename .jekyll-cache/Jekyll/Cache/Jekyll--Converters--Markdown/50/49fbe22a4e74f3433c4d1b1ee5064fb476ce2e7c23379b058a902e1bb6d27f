@@ -1,4 +1,4 @@
-I"<main id="top">
+I"ß<main id="top">
 
     <div class="row laatste-nieuws-2-columns">
         <div class="laatste-nieuws-2-columns__item">
@@ -49,7 +49,7 @@
 
     
     <div class="row festival__wrap">
-      <h2 class="festival" style="word-break: break-word">Festivaldag</h2>
+      <h2 class="festival" style="word-break:break-word;">Festivaldag</h2>
       <div class="festival__item--wrap">
         <!--
         <div class="festival__item line-through">
@@ -70,7 +70,7 @@
         <div class="festival__item">
           <h3>Zaterdag 1 juni 14u - 17u</h3>
           <p>Plaats: Lokalen en parking van de Kunstfabriek</p>
-          <p>Info volgt nog.</p>
+          <h3>Doorlopend optredens van onze bands</h3>
         </div>
       </div><!-- festival__item--wrap -->
 
@@ -86,6 +86,10 @@
         <figure>
           <img src="assets/img/festivaldag-2024-c.jpg" alt="Meet and greet festivaldag" style="width:100%" />
           <figcaption>Meet and greet</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/festivaldag-2024-d.jpg" alt="Meet and greet festivaldag" style="width:100%" />
+          <figcaption>Optredens</figcaption>
         </figure>
       </div>
       <br />
