@@ -20,14 +20,20 @@ op lijn 339 column count un-commenten
         <br>
         <h2>NIEUWE INSCHRIJVINGEN</h2>
         <article>
-          <p>Nieuwe cursisten of huidige cursisten die een nieuwe cursus willen volgen kunnen dat doen vanaf <strong>24 juni 2024</strong> op de dienst "vrije tijd".</p>
+          <p>De inschrijvingen starten op 24 juni vanaf 9 u. ‘s ochtends.</p>
+          <p>Voor de instrumentlessen en de samenspelgroepen contacteer je eerst het vrijetijdsloket – 015 30 72 50.</p>
+          <p>Voor alle andere lessen kan je meteen terecht via <a href="https://www.duffel.be/webshop" target="_blank" rel="noreferrer">de webshop.</a></p>
           <!--
+          <p>Nieuwe cursisten of huidige cursisten die een nieuwe cursus willen volgen kunnen dat doen vanaf <strong>24 juni 2024</strong> op de dienst "vrije tijd".</p>
+
           <p>Wil je eerst nog wat informatie over de lessen, wanneer ze gegeven worden of hoeveel ze kosten, dan kan je eerst nog wat rondkijken op deze website.</p>
           -->
-          <br>
-          <p>Meer info volgt later.</p>
-
         </article>
+        <br>
+
+        {% include nieuwe-lessen.html %}
+
+        {% include cursus-in-de-kijker.html %}
 
       </div>
     </section><!-- inschrijvingen -->
@@ -70,8 +76,9 @@ op lijn 339 column count un-commenten
           </tr>
           <tr>
             <td>Praatcafé Talen <br>
-                Kunstlab <br>
+                Muziekinitiatie <br>
                 Muzieklab <br>
+                Muzieklab+ <br>
                 Bandcoaching <br>
                 Groot samenspel/samenzang</td>
             <td>&euro; 72</td>
@@ -94,8 +101,10 @@ op lijn 339 column count un-commenten
             <td>&euro; 306</td>
           </tr>
         </table>
+        <p><i>TER INFO: wijzigingen Beeldende Vorming. De groepsindeling beeldende vorming verandert volgend schooljaar. Vanaf nu worden de cursisten per leerjaar ingedeeld en kunnen de leerlingen vanaf het 1ste leerjaar terecht in De Kunstfabriek- groep1 is voor het 1ste, 2de en 3de leerjaar, groep 2 voor het 4de, 5de en 6de leerjaar, groep 3 voor het middelbaar. De volwassenen kunnen dan weer rekenen op 30 minuten langer les, op woensdagavond van 19 tot 21 u.</i></p>
       </div>
     </section>
+    <br>
     <section class="gespreid">
         <div class="row">
             <p><strong>"Vrije Tijd voor iedereen"</strong>-korting, zie voorwaarden op <a href="https://www.duffel.be/vrijetijdvooriedereen" target="_blank" rel="noreferrer">www.duffel.be/vrijetijdvooriedereen</a></p>
