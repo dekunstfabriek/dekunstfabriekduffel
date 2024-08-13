@@ -33,7 +33,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
             {% endfor %}
             <a href="/posts">meer Laatste Nieuws items ...</a>
         </div>
-    </div><!-- laatste nieuws-2-columns row -->
+    </div>
 
     -->
     <!-- MUZIEK
