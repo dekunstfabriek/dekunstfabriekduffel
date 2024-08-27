@@ -18,7 +18,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
 ---
 
   <main id="top">
-<!--
+
     <div class="row laatste-nieuws-2-columns">
         <div class="laatste-nieuws-2-columns__item">
           <h2>Laatste Nieuws</h2>
@@ -35,8 +35,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
         </div>
     </div>
 
-    -->
-    <!-- MUZIEK
+    <!-- MUZIEK -->
 
     <div class="muziek">
       <div class="muziek__wrap row">
@@ -50,10 +49,10 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
           <h3>info</h3>
           <p>{{ page.info_muziek }}</p>
 
--->
+
         </div>
-        <!--
-      </div>muziek__wrap
+       
+      </div>
       <div class="muziek__wrap muziek__wrap--lessen row">
         <p>instrument</p>
         <p>samenspel</p>
@@ -62,16 +61,13 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
         <p>andere</p>
 
       </div>
-      -->
+   
     </div>
 
-    <!--
     <div class="slogan row">
       <q cite=""><i>{{ page.quote1 }}</i></q>
     </div>
 
-    -->
-    <!--
     <div class="bak">
       <div class="bak__wrap row">
         <div class="muziek__item muziek__item--2">
@@ -110,7 +106,7 @@ info_talen: De Kunstfabriek is geen centrum voor volwassenenonderwijs (CVO), onz
         </div>
       </div>
     </div>
-    -->
+
 
       <br>
       <hr>
