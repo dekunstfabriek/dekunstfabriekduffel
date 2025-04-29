@@ -1,19 +1,19 @@
 ---
 title: kunstfabriek
 other_link: inschrijvingen-2024
-layout: landing
+layout: 404
 ---
-
-  <main id="top">
-    <!-- foto -->
-      <div></div>
-      <button class="btn-roze" role="button"><a href="/{{ page.other_link }}">Inschrijvingen</a></button>
-      <!-- LINK NOG VERANDEREN !!!!!!!!!!!!
-      ======================================= -->
-      <button class="btn-blauw" role="button"><a href="/home">Algemene info</a></button>
-
-  </main>
-
-<!-- reserve link die je kan copieren om de button (btn-roze) hierboven te vervangen.
-<button class="btn-roze" role="button"><a href="/{{ page.other_link }}">{{ page.other_link }}</a></button>
- -->
+<main>
+    <div class="fourofour row">
+       <div class="fourofour-wrap">
+            <h1>404</h1>
+            <div class="spacer"></div>
+            <p>looks like you're lost</p>
+            <div class="spacer"></div>
+            <p>de kunstabriekduffel.be bestaat niet meer</p>
+       </div>
+    </div>
+    <div class="fourofour__title">
+      <a href="https://www.duffel.be/DeKunstfabriek">nieuwe site van de kunstfabriek</a>
+    </div>
+</main>

@@ -1,8 +1,0 @@
----
-title: 2021-07-22-Lieve
-date: 2021-07-22 15:54:00 +02:00
-leraar: Lieve
-reden: Ziek
----
-
-Lieve afwezig wegens ziekte
