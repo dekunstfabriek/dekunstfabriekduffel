@@ -2,7 +2,6 @@
 title: home
 permalink: "/home"
 layout: 404
-
 ---
 
 <main>
